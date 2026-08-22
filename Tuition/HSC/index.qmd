@@ -3,10 +3,10 @@ title: ""
 toc: false
 ---
 
-:::::: hsc-hero
+:::::: level-hero
 
-:::: hsc-intro
-[HIGHER SECONDARY CERTIFICATE]{.hsc-eyebrow}
+:::: level-intro
+[HIGHER SECONDARY CERTIFICATE]{.level-eyebrow}
 
 # HSC Learning Space
 
@@ -19,11 +19,11 @@ Welcome to the **HSC** section of **Md. Foysal Uddin's Learning Space**.
 
 ## Subjects
 
-:::::: hsc-subject-grid
+:::::: level-subject-grid
 
-::: hsc-subject-card
+::: level-subject-card
 
-<div class="hsc-subject-icon">
+<div class="level-subject-icon">
 <i class="fa-solid fa-calculator"></i>
 </div>
 
@@ -33,15 +33,15 @@ Welcome to the **HSC** section of **Md. Foysal Uddin's Learning Space**.
 Lecture-based HSC Higher Mathematics materials and daily exam questions. Solution must on your note.
 </p>
 
-<a href="Mathematics/index.qmd" class="btn btn-primary hsc-card-btn">
+<a href="Mathematics/index.qmd" class="btn btn-primary level-card-btn">
 Explore
 </a>
 
 :::
 
-::: hsc-subject-card
+::: level-subject-card
 
-<div class="hsc-subject-icon">
+<div class="level-subject-icon">
 <i class="fa-solid fa-laptop-code"></i>
 </div>
 
@@ -51,7 +51,7 @@ Explore
 HSC ICT lecture materials, core concepts with note, codes when needed and previous year questions.
 </p>
 
-<a href="ICT/index.qmd" class="btn btn-primary hsc-card-btn">
+<a href="ICT/index.qmd" class="btn btn-primary level-card-btn">
 Explore
 </a>
 

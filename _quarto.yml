@@ -61,6 +61,20 @@ website:
             - href: Tuition/HSC/Mathematics/lecture-04.qmd
               text: Weekly 01
 
+    - id: ICT
+      title: "HSC ICT"
+      style: "docked"
+      collapse-level: 1
+
+      contents:
+        - href: Tuition/HSC/ICT/index.qmd
+          text: Introduction
+
+        - section: "Lectures"
+          contents:
+            
+          
+
   page-footer:
     left: "© 2026 Md. Foysal Uddin"
     right: "Built with Quarto"

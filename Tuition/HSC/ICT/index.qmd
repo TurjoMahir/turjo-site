@@ -1,0 +1,353 @@
+---
+title: ""
+toc: true
+toc-location: right
+toc-title: "On this page"
+sidebar: ICT
+---
+
+:::::: mathematics-hero
+
+::: mathematics-intro
+[HIGHER SECONDARY CERTIFICATE]{.mathematics-eyebrow}
+
+# Information and Communication Technology
+
+HSC ICT has HTML, C programming and SQL database query language. I focused in these sectors here.
+:::
+
+::::::
+
+## Course Materials
+
+:::::: mathematics-info-grid
+
+::: mathematics-info-card
+<i class="fa-solid fa-chalkboard-user"></i>
+
+<h3>Lectures</h3>
+
+<p>
+Follow the lectures in sequence to build understanding topic by topic.
+</p>
+:::
+
+::: mathematics-info-card
+<i class="fa-solid fa-list-check"></i>
+
+<h3>Exams</h3>
+
+<p>
+Apply the concepts through carefully selected questions and problems.
+</p>
+:::
+
+::: mathematics-info-card
+<i class="fa-solid fa-file-lines"></i>
+
+<h3>Solutions</h3>
+
+<p>
+Review detailed solutions and understand the reasoning behind each step.
+</p>
+:::
+
+::::::
+
+## Lectures
+
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+
+library(readr)
+library(dplyr)
+library(stringr)
+
+sheet_url <- "https://docs.google.com/spreadsheets/d/e/2PACX-1vSS9xAr-Vm_XPEKsvPz9A1RWtIEW3R50nqcilODNggostrkW7ms5O84Dgrp9vheOer-K8Pu5PDtsgg2/pub?output=csv"
+
+lectures <- read_csv(
+  sheet_url,
+  show_col_types = FALSE
+)
+
+lectures <- lectures %>%
+  select(
+    `CLASS NO.`,
+    `LECTURE COMPLETE`,
+    `CHAPTERS & PAPER`,
+    CONTENT
+  ) %>%
+  filter(
+    !is.na(`CLASS NO.`)
+  )
+
+```
+
+
+:::::: mathematics-lecture-grid
+
+```{r}
+#| echo: false
+#| results: asis
+
+weekly_exam_no <- 0
+
+for (i in seq_len(nrow(lectures))) {
+
+  lecture_no <- lectures$`CLASS NO.`[i]
+  lecture_complete <- lectures$`LECTURE COMPLETE`[i]
+  chapter <- lectures$`CHAPTERS & PAPER`[i]
+  content <- lectures$CONTENT[i]
+
+
+  # ---------------------------------------------
+  # Show only completed lectures
+  # ---------------------------------------------
+
+  if (
+    is.na(lecture_complete) ||
+    !str_to_lower(str_trim(as.character(lecture_complete))) %in%
+      c("true", "yes", "1")
+  ) {
+    next
+  }
+
+
+  # ---------------------------------------------
+  # Clean chapter
+  # ---------------------------------------------
+
+  if (is.na(chapter)) {
+    chapter <- ""
+  } else {
+    chapter <- str_trim(as.character(chapter))
+  }
+
+
+  # ---------------------------------------------
+  # Detect Weekly Exam
+  # ---------------------------------------------
+
+  is_weekly_exam <- FALSE
+
+  if (!is.na(content)) {
+
+    is_weekly_exam <- str_detect(
+      str_to_lower(str_trim(as.character(content))),
+      fixed(
+        "weekly exam of previous lectures and problem solving",
+        ignore_case = TRUE
+      )
+    )
+
+  }
+
+
+  # ---------------------------------------------
+  # Weekly exam number
+  # ---------------------------------------------
+
+  if (is_weekly_exam) {
+
+    weekly_exam_no <- weekly_exam_no + 1
+
+    card_class <- "mathematics-lecture-card weekly-exam"
+
+  } else {
+
+    card_class <- "mathematics-lecture-card"
+
+  }
+
+
+  # ---------------------------------------------
+  # Lecture number
+  # ---------------------------------------------
+
+  lecture_number <- as.integer(
+    str_extract(
+      as.character(lecture_no),
+      "\\d+"
+    )
+  )
+
+
+  # ---------------------------------------------
+  # Lecture filename
+  # ---------------------------------------------
+
+  lecture_file <- sprintf(
+    "lecture-%02d.html",
+    lecture_number
+  )
+
+
+  # ---------------------------------------------
+  # Start card
+  # ---------------------------------------------
+
+  cat(
+    paste0(
+      '<div class="',
+      card_class,
+      '">'
+    ),
+    "\n\n"
+  )
+
+
+  # ---------------------------------------------
+  # Header
+  # ---------------------------------------------
+
+  cat(
+    '<div class="lecture-header">',
+    "\n\n"
+  )
+
+
+  cat(
+    paste0(
+      '<span class="lecture-number">',
+      sprintf(
+        "LECTURE %02d",
+        lecture_number
+      ),
+      '</span>'
+    ),
+    "\n\n"
+  )
+
+
+  # ---------------------------------------------
+  # Weekly exam label
+  # ---------------------------------------------
+
+  if (is_weekly_exam) {
+
+    cat(
+      paste0(
+        '<span class="weekly-exam-label">',
+        sprintf(
+          "WEEKLY EXAM %02d",
+          weekly_exam_no
+        ),
+        '</span>'
+      ),
+      "\n\n"
+    )
+
+  }
+
+
+  cat(
+    '</div>',
+    "\n\n"
+  )
+
+
+  # ---------------------------------------------
+  # Chapter / Paper
+  # ---------------------------------------------
+
+  if (chapter != "") {
+
+    cat(
+      paste0(
+        '<div class="lecture-chapters">',
+        chapter,
+        '</div>'
+      ),
+      "\n\n"
+    )
+
+  }
+
+
+  # ---------------------------------------------
+  # Content
+  # ---------------------------------------------
+
+  if (
+    !is.na(content) &&
+    str_trim(as.character(content)) != ""
+  ) {
+
+    cat(
+      paste0(
+        '<div class="lecture-content">',
+        str_trim(as.character(content)),
+        '</div>'
+      ),
+      "\n\n"
+    )
+
+  }
+
+
+  # ---------------------------------------------
+  # Open button
+  # ---------------------------------------------
+
+  button_html <- paste0(
+    '<a href="',
+    lecture_file,
+    '" class="mathematics-lecture-btn btn btn-primary">',
+    'Open',
+    '</a>'
+  )
+
+
+  cat(
+    button_html,
+    "\n\n"
+  )
+
+
+  # ---------------------------------------------
+  # Close card
+  # ---------------------------------------------
+
+  cat(
+    '</div>',
+    "\n\n"
+  )
+
+}
+
+```
+
+
+::::::
+
+<br>
+
+::: contact-social
+
+<a href="https://github.com/TurjoMahir"
+   target="_blank"
+   aria-label="GitHub">
+   <i class="fa-brands fa-github"></i>
+</a>
+
+<a href="https://www.linkedin.com/in/md-foysal-uddin-3aa47a406/"
+   target="_blank"
+   aria-label="LinkedIn">
+   <i class="fa-brands fa-linkedin-in"></i>
+</a>
+
+<a href="https://www.facebook.com/foysal.uddin.turjo.2005"
+   target="_blank"
+   aria-label="Facebook">
+   <i class="fa-brands fa-facebook-f"></i>
+</a>
+
+<a href="mailto:foysaluddinturjo@gmail.com"
+   aria-label="Email">
+   <i class="fa-solid fa-envelope"></i>
+</a>
+
+:::

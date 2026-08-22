@@ -6,10 +6,8 @@ toc: false
 
 :::::: home-hero
 :::: home-intro
-# 
 
-<br>
-
+#
 # Md. Foysal Uddin
 
 <h3>Student • University of Dhaka</h3>

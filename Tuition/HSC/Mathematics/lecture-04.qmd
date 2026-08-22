@@ -381,7 +381,7 @@ $$
 ::: lecture-navigation
 [← Previous Lecture](lecture-03.qmd){.lecture-nav-btn}
 
-[Next Lecture →](lecture-05.qmd){.lecture-nav-btn}
+[Next Lecture →](lecture-04.qmd){.lecture-nav-btn}
 :::
 
 <br>

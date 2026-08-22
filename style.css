@@ -2246,10 +2246,10 @@
 
 
 /* =================================
-   HSC Hero
+   Level Hero
    ================================= */
 
-.hsc-hero {
+.level-hero {
   max-width: 950px;
 
   margin: 4rem auto 5rem auto;
@@ -2257,13 +2257,13 @@
   text-align: center;
 }
 
-.hsc-intro {
+.level-intro {
   max-width: 760px;
 
   margin: 0 auto;
 }
 
-.hsc-eyebrow {
+.level-eyebrow {
   display: inline-block;
 
   margin-bottom: 0.8rem;
@@ -2278,13 +2278,13 @@
   text-decoration: none !important;
 }
 
-.hsc-intro h1 {
+.level-intro h1 {
   margin: 0 0 1rem 0;
 
   font-size: 3.2rem;
 }
 
-.hsc-intro > p {
+.level-intro > p {
   max-width: 720px;
 
   margin: 0 auto;
@@ -2296,16 +2296,13 @@
 
 
 /* =================================
-   HSC Subject Grid
+   Level Subject Grid
    ================================= */
 
-.hsc-subject-grid {
+.level-subject-grid {
   max-width: 1000px;
-
   margin: 2rem auto 5rem auto;
-
   display: grid;
-
   grid-template-columns:
     repeat(2, minmax(0, 1fr));
 
@@ -2314,22 +2311,17 @@
 
 
 /* =================================
-   HSC Subject Card
+   Level Subject Card
    ================================= */
 
-.hsc-subject-card {
+.level-subject-card {
   min-height: 300px;
-
   padding: 2rem;
-
   display: flex;
-
   flex-direction: column;
-
   align-items: flex-start;
 
   border: 1px solid rgba(128, 128, 128, 0.3);
-
   border-radius: 14px;
 
   background: rgba(128, 128, 128, 0.04);
@@ -2340,11 +2332,9 @@
     border-color 0.2s ease;
 }
 
-.hsc-subject-card:hover {
+.level-subject-card:hover {
   transform: translateY(-4px);
-
   border-color: var(--bs-primary);
-
   box-shadow:
     0 8px 25px rgba(0, 0, 0, 0.12);
 }
@@ -2354,7 +2344,7 @@
    Subject Icon
    ================================= */
 
-.hsc-subject-icon {
+.level-subject-icon {
   width: 52px;
   height: 52px;
 
@@ -2364,17 +2354,13 @@
   justify-content: center;
 
   margin-bottom: 1.3rem;
-
   border-radius: 12px;
-
   background: color-mix(
     in srgb,
     var(--bs-primary) 10%,
     var(--bs-body-bg)
   );
-
   color: var(--bs-primary);
-
   font-size: 1.5rem;
 }
 
@@ -2383,17 +2369,14 @@
    Subject Content
    ================================= */
 
-.hsc-subject-card h3 {
+.level-subject-card h3 {
   margin: 0 0 0.8rem 0;
-
   font-size: 1.45rem;
 }
 
-.hsc-subject-card p {
+.level-subject-card p {
   flex: 1;
-
   margin-bottom: 1.5rem;
-
   line-height: 1.7;
 }
 
@@ -2402,7 +2385,7 @@
    Subject Button
    ================================= */
 
-.hsc-card-btn {
+.level-card-btn {
   width: 170px !important;
   height: 43px !important;
 
@@ -2412,25 +2395,20 @@
   justify-content: center;
 
   padding: 0 !important;
-
   margin: auto 0 0 0 !important;
-
   border-radius: 999px !important;
-
   font-size: 0.9rem;
-
   font-weight: 600;
-
   text-decoration: none !important;
 }
 
-.hsc-card-btn:hover {
+.level-card-btn:hover {
   text-decoration: none !important;
 }
 
 
 /* =================================
-   HSC Table of Contents
+   Level Table of Contents
    ================================= */
 
 #TOC {
@@ -2439,7 +2417,6 @@
 
 #TOC .nav-link {
   color: var(--bs-secondary-color);
-
   transition:
     color 0.2s ease;
 }
@@ -2456,34 +2433,31 @@
 
 
 /* =================================
-   HSC Mobile
+   Level Mobile
    ================================= */
 
 @media (max-width: 768px) {
 
-  .hsc-hero {
+  .level-hero {
     margin-top: 2.5rem;
-
     margin-bottom: 3.5rem;
-  }
+}
 
-  .hsc-intro h1 {
+  .level-intro h1 {
     font-size: 2.4rem;
   }
 
-  .hsc-intro > p {
+  .level-intro > p {
     font-size: 1rem;
   }
 
-  .hsc-subject-grid {
+  .level-subject-grid {
     grid-template-columns: 1fr;
-
     gap: 1rem;
   }
 
-  .hsc-subject-card {
+  .level-subject-card {
     min-height: auto;
-
     padding: 1.5rem;
   }
 
@@ -2492,11 +2466,11 @@
 
 @media (max-width: 500px) {
 
-  .hsc-intro h1 {
+  .level-intro h1 {
     font-size: 2rem;
   }
 
-  .hsc-intro > p {
+  .level-intro > p {
     font-size: 0.95rem;
   }
 
@@ -2505,7 +2479,7 @@
 
 
 /* =========================================================
-   HSC MATHEMATICS
+   SUBJECT MATHEMATICS
    ========================================================= */
 
 
@@ -2731,15 +2705,10 @@
 
 .lecture-number {
   display: inline-block;
-
   font-size: 0.75rem;
-
   font-weight: 700;
-
   letter-spacing: 0.12em;
-
   color: var(--bs-primary);
-
   white-space: nowrap;
 }
 
@@ -2750,11 +2719,8 @@
 
 .lecture-chapters {
   margin-bottom: 1.3rem;
-
   font-size: 1.05rem;
-
   font-weight: 600;
-
   line-height: 1.6;
 }
 
@@ -2765,15 +2731,10 @@
 
 .lecture-content {
   flex: 1;
-
   width: 100%;
-
   margin-bottom: 1.5rem;
-
   font-size: 0.95rem;
-
   line-height: 1.75;
-
   overflow-wrap: break-word;
 }
 
@@ -2784,25 +2745,17 @@
 
 .mathematics-lecture-btn {
   width: 155px !important;
-
   height: 43px !important;
-
+  
   display: inline-flex !important;
-
   align-items: center;
-
   justify-content: center;
-
   padding: 0 !important;
-
   margin: 0 !important;
-
   border-radius: 999px !important;
-
   font-weight: 600;
-
+  
   text-align: center;
-
   text-decoration: none !important;
 
   transition:
@@ -2812,7 +2765,6 @@
 
 .mathematics-lecture-btn:hover {
   transform: translateY(-2px);
-
   box-shadow:
     0 5px 15px rgba(0, 0, 0, 0.15);
 
@@ -2921,45 +2873,33 @@
   max-width: 1050px;
 
   display: flex;
-
   justify-content: space-between;
-
   align-items: center;
 
   gap: 1rem;
-
   margin: 4rem auto 2rem;
-
   padding-top: 1.5rem;
-
   border-top:
     1px solid rgba(128, 128, 128, 0.3);
 }
 
 .lecture-nav-btn {
   display: inline-flex;
-
   align-items: center;
-
   justify-content: center;
 
   min-width: 150px;
-
   min-height: 42px;
 
   padding: 0.55rem 1rem;
-
   border:
     1px solid var(--bs-border-color);
 
   border-radius: 999px;
-
   color: var(--bs-body-color);
 
   text-decoration: none !important;
-
   font-size: 0.9rem;
-
   font-weight: 600;
 
   transition:
@@ -2972,9 +2912,7 @@
 
 .lecture-nav-btn:hover {
   border-color: var(--bs-primary);
-
   color: var(--bs-primary);
-
   background:
     color-mix(
       in srgb,
@@ -2983,9 +2921,7 @@
     );
 
   text-decoration: none !important;
-
   transform: translateY(-2px);
-
   box-shadow:
     0 5px 15px rgba(0, 0, 0, 0.10);
 }
@@ -2997,36 +2933,26 @@
 
 .contact-social {
   display: flex;
-
   justify-content: center;
-
   align-items: center;
 
   gap: 1.5rem;
-
   margin: 3rem auto 1rem auto;
 }
 
 .contact-social a {
   width: 45px;
-
   height: 45px;
 
   display: inline-flex;
-
   align-items: center;
-
   justify-content: center;
-
   border:
     1px solid rgba(128, 128, 128, 0.35);
 
   border-radius: 50%;
-
   color: var(--bs-body-color);
-
   text-decoration: none !important;
-
   font-size: 1.15rem;
 
   transition:
@@ -3038,11 +2964,8 @@
 
 .contact-social a:hover {
   transform: translateY(-3px);
-
   border-color: var(--bs-primary);
-
   color: var(--bs-primary);
-
   box-shadow:
     0 5px 15px rgba(0, 0, 0, 0.15);
 
@@ -3061,16 +2984,12 @@
 
 .lecture-hero {
   max-width: 1000px;
-
   margin: 2.5rem auto 3rem;
-
   padding: 2.2rem 2.5rem;
-
   border:
     1px solid var(--bs-border-color);
 
   border-radius: 16px;
-
   background:
     color-mix(
       in srgb,
@@ -3079,9 +2998,7 @@
     );
 
   display: flex;
-
   align-items: flex-end;
-
   justify-content: space-between;
 
   gap: 2rem;
@@ -3094,7 +3011,6 @@
 
 .lecture-hero:hover {
   border-color: var(--bs-primary);
-
   box-shadow:
     0 8px 25px rgba(0, 0, 0, 0.10);
 
@@ -3399,13 +3315,10 @@
   border-radius: 999px;
 
   font-size: 0.7rem;
-
   font-weight: 700;
 
   letter-spacing: 0.05em;
-
   color: var(--bs-warning);
-
   background:
     color-mix(
       in srgb,
@@ -3437,19 +3350,14 @@
   justify-content: center;
 
   padding: 0.4rem 0.75rem;
-
   border: 1px solid var(--bs-warning);
-
   border-radius: 999px;
 
   font-size: 0.68rem;
-
   font-weight: 700;
-
   letter-spacing: 0.06em;
 
   color: var(--bs-warning);
-
   background:
     color-mix(
       in srgb,
@@ -3458,7 +3366,6 @@
     );
 
   white-space: nowrap;
-
   z-index: 10;
 }
 
@@ -3725,7 +3632,6 @@ main pre {
 
 main a {
   text-decoration-thickness: 1px;
-
   text-underline-offset: 3px;
 }
 
