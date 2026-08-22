@@ -1,0 +1,155 @@
+---
+title: ""
+page-layout: full
+toc: false
+---
+
+:::::: home-hero
+:::: home-intro
+# 
+
+<br>
+
+# Md. Foysal Uddin
+
+<h3>Student • University of Dhaka</h3>
+[APPLIED STATISTICS & DATA SCIENCE]{.home-eyebrow}
+
+---
+
+<p>I am a student of <strong>Applied Statistics and Data Science</strong> at the <strong>University of Dhaka</strong>, interested in programming, data analysis, and building practical solutions with data and technology.</p>
+
+::: home-buttons
+[View Portfolio](Portfolio/index.qmd){.btn .btn-primary}
+
+[View Projects](Projects/index.qmd){.btn .btn-secondary}
+:::
+::::
+
+::: home-photo
+<img src="Assets/Images/Foysal-Uddin-formal.png" alt="Md. Foysal Uddin"/>
+:::
+::::::
+
+## What I Do
+
+::::::::: home-focus-grid
+:::: home-focus-card
+::: focus-icon
+<i class="fa-solid fa-chart-line"></i>
+:::
+
+<h3>Data Science</h3>
+
+<p>Exploring data through statistical analysis, visualization, and data-driven problem solving using R and other statistical tools.</p>
+::::
+
+:::: home-focus-card
+::: focus-icon
+<i class="fa-solid fa-code"></i>
+:::
+
+<h3>Programming</h3>
+
+<p>Building practical applications and strengthening my programming skills with Python, C, SQL, and backend-oriented development.</p>
+::::
+
+:::: home-focus-card
+::: focus-icon
+<i class="fa-solid fa-database"></i>
+:::
+
+<h3>Data & Databases</h3>
+
+<p>Interested in database systems, SQL, data management, and the connection between software and data.</p>
+::::
+:::::::::
+
+------------------------------------------------------------------------
+
+## Currently Exploring
+
+::::::::: home-exploring
+:::: exploring-item
+[01]{.exploring-number}
+
+<div>
+
+<h3>R & Statistical Computing</h3>
+
+<p>Developing stronger skills in R, statistical analysis, visualization, and reproducible data workflows.</p>
+
+</div>
+::::
+
+:::: exploring-item
+[02]{.exploring-number}
+
+<div>
+
+<h3>Backend Development</h3>
+
+<p>Exploring backend programming, SQL, databases, and how applications interact with data.</p>
+
+</div>
+::::
+
+:::: exploring-item
+[03]{.exploring-number}
+
+<div>
+
+<h3>Practical Projects</h3>
+
+<p>Turning what I learn into real projects and documenting the process along the way.</p>
+
+</div>
+::::
+:::::::::
+
+------------------------------------------------------------------------
+
+:::::: home-destination-grid
+::: home-destination-card
+<h3>Tuition</h3>
+
+<p>Lecture-based learning materials for Mathematics and ICT.</p>
+
+[Explore Tuition](Tuition/index.qmd){.btn .btn-primary}
+:::
+
+::: home-destination-card
+<h3>Portfolio</h3>
+
+<p>Learn more about my education, skills, interests, and professional direction.</p>
+
+[View Portfolio](Portfolio/index.qmd){.btn .btn-primary}
+:::
+
+::: home-destination-card
+<h3>Contact</h3>
+
+<p>Interested in collaboration, projects, or professional opportunities?</p>
+
+[Contact Me](Contact/index.qmd){.btn .btn-primary}
+:::
+::::::
+
+------------------------------------------------------------------------
+
+::: home-social
+<a href="https://github.com/TurjoMahir"
+   target="_blank"
+   aria-label="GitHub"> <i class="fa-brands fa-github"></i> </a>
+
+<a href="https://www.linkedin.com/in/md-foysal-uddin-3aa47a406/"
+   target="_blank"
+   aria-label="LinkedIn"> <i class="fa-brands fa-linkedin-in"></i> </a>
+
+<a href="https://www.facebook.com/"
+   target="_blank"
+   aria-label="Facebook"> <i class="fa-brands fa-facebook-f"></i> </a>
+
+<a href="mailto:your-email@example.com"
+   aria-label="Email"> <i class="fa-solid fa-envelope"></i> </a>
+:::

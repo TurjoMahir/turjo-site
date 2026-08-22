@@ -1,0 +1,83 @@
+project:
+  type: website
+
+website:
+  title: "Turjo Site"
+
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+
+      - text: Tuition
+        menu:
+          - href: Tuition/index.qmd
+            text: Tuition Home
+
+          - href: Tuition/HSC/index.qmd
+            text: HSC
+
+          - href: Tuition/HSC/Mathematics/index.qmd
+            text: HSC Mathematics
+
+      - href: Projects/index.qmd
+        text: Projects
+
+      - href: Portfolio/index.qmd
+        text: Portfolio
+
+      - href: Contact/index.qmd
+        text: Contact
+
+    right:
+      - icon: github
+        href: https://github.com/TurjoMahir
+
+      - icon: linkedin
+        href: https://www.linkedin.com/in/md-foysal-uddin-3aa47a406/
+
+
+  sidebar:
+    - id: mathematics
+      title: "HSC Mathematics"
+      style: "docked"
+      collapse-level: 1
+
+      contents:
+        - href: Tuition/HSC/Mathematics/index.qmd
+          text: Introduction
+
+        - section: "Lectures"
+          contents:
+            - href: Tuition/HSC/Mathematics/lecture-01.qmd
+              text: Lecture 01
+
+            - href: Tuition/HSC/Mathematics/lecture-02.qmd
+              text: Lecture 02
+
+            - href: Tuition/HSC/Mathematics/lecture-03.qmd
+              text: Lecture 03
+              
+            - href: Tuition/HSC/Mathematics/lecture-04.qmd
+              text: Weekly 01
+
+  page-footer:
+    left: "© 2026 Md. Foysal Uddin"
+    right: "Built with Quarto"
+
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    css: style.css
+    toc: true
+    smooth-scroll: true
+    mainfont: "Noto Sans"
+
+    include-in-header:
+      - text: |
+          <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+          >

@@ -1,0 +1,135 @@
+---
+title: ""
+toc: false
+---
+
+:::::: contact-hero
+
+:::: contact-intro
+[GET IN TOUCH]{.contact-eyebrow}
+
+# Let's Connect
+
+Whether you have a project in mind, want to discuss an opportunity, or simply want to connect, I would be happy to hear from you.
+
+I am currently interested in **data science, statistical computing, backend development, programming, research, and teaching**.
+
+::: contact-buttons
+[Email Me](mailto:foysaluddinturjo@gmail.com){.btn .btn-primary}
+
+[LinkedIn](https://www.linkedin.com/in/md-foysal-uddin-3aa47a406/){.btn .btn-secondary}
+:::
+::::
+
+::::::
+
+<br>
+
+## Contact
+
+:::::: contact-grid
+
+::: contact-card
+<i class="fa-solid fa-envelope"></i>
+
+<h3>Email</h3>
+
+<p>For inquiries, discussions, and collaboration.</p>
+
+<a href="mailto:foysaluddinturjo@gmail.com" class="btn btn-primary contact-card-btn">
+Email Me
+</a>
+:::
+
+::: contact-card
+<i class="fa-brands fa-github"></i>
+
+<h3>GitHub</h3>
+
+<p>Explore my projects, orginal code, and ongoing work.</p>
+
+<a href="https://github.com/TurjoMahir"
+   target="_blank"
+   class="btn btn-secondary contact-card-btn">
+Visit GitHub
+</a>
+:::
+
+::: contact-card
+<i class="fa-brands fa-linkedin-in"></i>
+
+<h3>LinkedIn</h3>
+
+<p>Connect with me for professional opportunities.</p>
+
+<a href="https://www.linkedin.com/in/md-foysal-uddin-3aa47a406/"
+   target="_blank"
+   class="btn btn-secondary contact-card-btn">
+Visit LinkedIn
+</a>
+:::
+
+::::::
+<br>
+
+## Professional Interests
+
+I am particularly interested in opportunities involving:
+
+:::::: interests-grid
+
+::: interest-card
+<h3>Data Science</h3>
+
+<p>Data analysis, statistical modelling, visualization, and data-driven problem solving.</p>
+:::
+
+::: interest-card
+<h3>Programming</h3>
+
+<p>Python, R, SQL, backend development, and software development projects.</p>
+:::
+
+::: interest-card
+<h3>Research & Collaboration</h3>
+
+<p>Research projects, technical collaboration, and opportunities to learn and build together.</p>
+:::
+
+::: interest-card
+<h3>Teaching</h3>
+
+<p>Mathematics, programming, statistics, and educational content development.</p>
+:::
+
+::::::
+
+<br>
+
+:::: contact-note
+<h3>Preferred Contact</h3>
+
+<p>
+For professional inquiries, <strong>email</strong> or <strong>LinkedIn</strong> is preferred.
+If you are reaching out about a project or collaboration, feel free to briefly describe what you have in mind.
+</p>
+::::
+
+<br>
+
+::: contact-social
+<a href="https://github.com/TurjoMahir"
+   target="_blank"
+   aria-label="GitHub"> <i class="fa-brands fa-github"></i> </a>
+
+<a href="https://www.linkedin.com/in/md-foysal-uddin-3aa47a406/"
+   target="_blank"
+   aria-label="LinkedIn"> <i class="fa-brands fa-linkedin-in"></i> </a>
+
+<a href="https://www.facebook.com/foysal.uddin.turjo.2005"
+   target="_blank"
+   aria-label="Facebook"> <i class="fa-brands fa-facebook-f"></i> </a>
+
+<a href="mailto:foysaluddinturjo@gmail.com"
+   aria-label="Email"> <i class="fa-solid fa-envelope"></i> </a>
+:::

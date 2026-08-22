@@ -1,0 +1,89 @@
+---
+title: ""
+toc: false
+---
+
+:::::: hsc-hero
+
+:::: hsc-intro
+[HIGHER SECONDARY CERTIFICATE]{.hsc-eyebrow}
+
+# HSC Learning Space
+
+Welcome to the **HSC** section of **Md. Foysal Uddin's Learning Space**.
+
+
+::::
+
+::::::
+
+## Subjects
+
+:::::: hsc-subject-grid
+
+::: hsc-subject-card
+
+<div class="hsc-subject-icon">
+<i class="fa-solid fa-calculator"></i>
+</div>
+
+<h3>Mathematics</h3>
+
+<p>
+Lecture-based HSC Higher Mathematics materials and daily exam questions. Solution must on your note.
+</p>
+
+<a href="Mathematics/index.qmd" class="btn btn-primary hsc-card-btn">
+Explore
+</a>
+
+:::
+
+::: hsc-subject-card
+
+<div class="hsc-subject-icon">
+<i class="fa-solid fa-laptop-code"></i>
+</div>
+
+<h3>ICT</h3>
+
+<p>
+HSC ICT lecture materials, core concepts with note, codes when needed and previous year questions.
+</p>
+
+<a href="ICT/index.qmd" class="btn btn-primary hsc-card-btn">
+Explore
+</a>
+
+:::
+
+::::::
+
+<br>
+
+:::: contact-social
+
+<a href="https://github.com/TurjoMahir"
+   target="_blank"
+   aria-label="GitHub">
+   <i class="fa-brands fa-github"></i>
+</a>
+
+<a href="https://www.linkedin.com/in/md-foysal-uddin-3aa47a406/"
+   target="_blank"
+   aria-label="LinkedIn">
+   <i class="fa-brands fa-linkedin-in"></i>
+</a>
+
+<a href="https://www.facebook.com/foysal.uddin.turjo.2005"
+   target="_blank"
+   aria-label="Facebook">
+   <i class="fa-brands fa-facebook-f"></i>
+</a>
+
+<a href="mailto:foysaluddinturjo@gmail.com"
+   aria-label="Email">
+   <i class="fa-solid fa-envelope"></i>
+</a>
+
+::::

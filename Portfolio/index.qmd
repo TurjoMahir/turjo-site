@@ -1,0 +1,276 @@
+---
+title: ""
+toc: false
+---
+
+:::::: portfolio-hero
+::: portfolio-photo
+<img src="../Assets/Images/Foysal-Uddin-formal.png" alt="Md. Foysal Uddin"/>
+:::
+
+:::: portfolio-intro
+# **Md. Foysal Uddin**
+
+**Student • University of Dhaka**  
+[INSTITUTE OF APPLIED STATISTICS & DATA SCIENCE (IASDS)]{.home-eyebrow}
+
+Interested in **Data Science, Statistical Computing, Backend Development, SQL, Python, and R**.
+
+::: portfolio-buttons
+[View Projects](../Projects/index.qmd){.btn .btn-primary}
+
+[Contact Me](../Contact/index.qmd){.btn .btn-secondary}
+:::
+::::
+::::::
+
+<br>
+
+## About Me
+
+:::::: about-section
+
+:::: about-main
+
+<p class="about-lead">
+I am <strong>Md. Foysal Uddin</strong>, a student of <strong>Applied Statistics and Data Science at the University of Dhaka</strong>. My studies have introduced me to statistics, data analysis, programming, and computational thinking.
+</p>
+
+<p>
+My interests include <strong>data science, statistical computing, backend development, and database systems</strong>. I enjoy working with <strong>Python, R, SQL, C, Stata, and SPSS</strong>, and exploring how programming and data can be used to solve practical problems.
+</p>
+
+<p>
+I have a strong passion for <strong>learning, building, and exploring</strong> in these areas. I hope to keep developing my skills through hands-on projects and discover meaningful ways to bring statistics, programming, and data together.
+</p>
+
+::::
+
+:::: about-interests
+
+<div class="about-interest-header">
+<span>Areas of Interest</span>
+</div>
+
+<div class="about-interest-item">
+<i class="fa-solid fa-chart-line"></i>
+<div>
+<strong>Data Science</strong>
+<span>Analysis, visualization & data-driven insights</span>
+</div>
+</div>
+
+<div class="about-interest-item">
+<i class="fa-solid fa-server"></i>
+<div>
+<strong>Backend Development</strong>
+<span>Programming, APIs & application logic</span>
+</div>
+</div>
+
+<div class="about-interest-item">
+<i class="fa-solid fa-database"></i>
+<div>
+<strong>Database Systems</strong>
+<span>SQL, MySQL & data management</span>
+</div>
+</div>
+
+<div class="about-interest-item">
+<i class="fa-solid fa-square-root-variable"></i>
+<div>
+<strong>Statistical Computing</strong>
+<span>Statistics, computation & programming</span>
+</div>
+</div>
+
+::::
+
+::::::
+
+<br>
+
+## Skills & Technologies
+
+:::::::::::::::::::: skills-section
+::::::: skill-group
+<h3>Programming</h3>
+
+:::::: skills-grid
+::: skill-card
+<i class="fa-brands fa-python"></i> Python
+:::
+
+::: skill-card
+<i class="fa-solid fa-c"></i> C
+:::
+
+::: skill-card
+<i class="fa-solid fa-database"></i> SQL
+:::
+::::::
+:::::::
+
+::::::: skill-group
+<h3>Data & Statistics</h3>
+
+:::::: skills-grid
+::: skill-card
+<i class="fa-brands fa-r-project"></i> R
+:::
+
+::: skill-card
+<i class="fa-solid fa-chart-line"></i> Stata
+:::
+
+::: skill-card
+<i class="fa-solid fa-chart-pie"></i> SPSS
+:::
+::::::
+:::::::
+
+::::::::: skill-group
+<h3>Tools & Technologies</h3>
+
+:::::::: skills-grid
+::: skill-card
+<i class="fa-solid fa-file-code"></i> Quarto
+:::
+
+::: skill-card
+<i class="fa-solid fa-database"></i> MySQL
+:::
+
+::: skill-card
+<i class="fa-brands fa-git-alt"></i> Git
+:::
+
+::: skill-card
+<i class="fa-brands fa-github"></i> GitHub
+:::
+
+::: skill-card
+<i class="fa-solid fa-code"></i> RStudio
+:::
+
+::: skill-card
+<i class="fa-brands fa-linux"></i> Linux
+:::
+::::::::
+:::::::::
+::::::::::::::::::::
+
+## Current Focus
+
+My current focus is on developing stronger skills in **R and data science**, while continuing to build practical projects with Python.
+
+## Education
+
+::::::::::::::: education-timeline
+:::::: education-item
+::::: education-card
+:::: education-card-header
+<div>
+
+[Secondary Education]{.education-level}
+
+<h3>Dakhil (2021)</h3>
+
+</div>
+
+[GPA 5.00]{.education-result}
+::::
+
+<p class="education-institution">
+
+Tamirul Millat Kamil Madrasah, Tongi, Gazipur
+
+</p>
+:::::
+::::::
+
+:::::: education-item
+::::: education-card
+:::: education-card-header
+<div>
+
+[Higher Secondary Education]{.education-level}
+
+<h3>HSC (2023)</h3>
+
+</div>
+
+[GPA 5.00]{.education-result}
+::::
+
+<p class="education-institution">
+
+Engineering University School and College, BUET Campus, Dhaka
+
+</p>
+:::::
+::::::
+
+:::::: education-item
+::::: education-card
+:::: education-card-header
+<div>
+
+[Undergraduate]{.education-level}
+
+<h3>Applied Statistics and Data Science</h3>
+
+</div>
+
+[Current]{.education-result}
+::::
+
+<p class="education-institution">
+
+University of Dhaka
+
+</p>
+
+<p>Currently studying Applied Statistics and Data Science, with interests in data science, statistical computing, programming, databases, and data analysis.</p>
+:::::
+::::::
+:::::::::::::::
+
+------------------------------------------------------------------------
+
+::::: portfolio-cards
+::: portfolio-card
+<h3>Tuition</h3>
+
+<p>Explore my lecture-based learning materials for Mathematics and ICT.</p>
+
+[Explore Tuition](../Tuition/index.qmd){.btn .btn-primary}
+:::
+
+::: portfolio-card
+<h3>Contact</h3>
+
+<p>Interested in working together, discussing a project, or connecting with me?</p>
+
+[Contact Me](../Contact/index.qmd){.btn .btn-primary}
+:::
+:::::
+
+------------------------------------------------------------------------
+
+::: contact-social
+<a href="https://github.com/TurjoMahir"
+   target="_blank"
+   aria-label="GitHub"> <i class="fa-brands fa-github"></i> </a>
+
+<a href="https://www.linkedin.com/in/md-foysal-uddin-3aa47a406/"
+   target="_blank"
+   aria-label="LinkedIn"> <i class="fa-brands fa-linkedin-in"></i> </a>
+
+<a href="https://www.facebook.com/foysal.uddin.turjo.2005"
+   target="_blank"
+   aria-label="Facebook"> <i class="fa-brands fa-facebook-f"></i> </a>
+
+<a href="mailto:foysaluddinturjo@gmail.com"
+   aria-label="Email"> <i class="fa-solid fa-envelope"></i> </a>
+:::

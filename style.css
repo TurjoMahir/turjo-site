@@ -1,0 +1,4111 @@
+
+
+/* Theme button */
+.quarto-color-scheme-toggle {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+
+  min-width: 78px;
+  padding: 5px 12px !important;
+  margin-left: 8px;
+
+  border: 1px solid var(--bs-border-color) !important;
+  border-radius: 8px !important;
+
+  background-color: transparent !important;
+  color: var(--bs-body-color) !important;
+
+  font-size: 0.875rem;
+  font-weight: 500;
+
+  text-decoration: none !important;
+
+  transition:
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    color 0.2s ease,
+    transform 0.15s ease;
+}
+
+/* Remove default icon */
+.quarto-color-scheme-toggle i {
+  display: none;
+}
+
+/* Button text */
+.quarto-color-scheme-toggle::after {
+  content: "Light / Dark";
+  text-decoration: none !important;
+}
+
+/* Theme-aware hover */
+.quarto-color-scheme-toggle:hover {
+  background-color: color-mix(
+    in srgb,
+    var(--bs-primary) 12%,
+    var(--bs-body-bg)
+  ) !important;
+
+  border-color: var(--bs-primary) !important;
+  color: var(--bs-primary) !important;
+
+  text-decoration: none !important;
+
+  transform: translateY(-1px);
+}
+
+/* Click effect */
+.quarto-color-scheme-toggle:active {
+  transform: translateY(0);
+}
+
+
+
+/* ================================
+   Rounded Buttons
+   ================================ */
+
+.btn {
+  border-radius: 999px !important;
+  padding: 0.6rem 1.3rem !important;
+  font-weight: 600;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+
+/* =================================
+   HOME HERO
+   ================================= */
+
+.home-hero {
+  max-width: 1100px;
+  margin: 5rem auto 6rem auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 5rem;
+}
+
+.home-intro {
+  flex: 1;
+}
+
+.home-eyebrow {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  opacity: 0.65;
+}
+
+.home-intro h1 {
+  font-size: 3.8rem;
+  margin: 0.7rem 0 0.5rem 0;
+}
+
+.home-intro h2 {
+  font-size: 1.35rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+
+.home-intro > p {
+  max-width: 650px;
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.home-buttons {
+  display: flex;
+  gap: 1.2rem;
+  margin-top: 2rem;
+}
+
+.home-buttons .btn {
+  width: 180px;
+  height: 45px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0 !important;
+  margin: 0 !important;
+
+  border-radius: 999px !important;
+  font-weight: 600;
+}
+
+.home-photo {
+  flex: 0 0 280px;
+}
+
+.home-photo img {
+  width: 360px;
+  height: 410px;
+
+  object-fit: cover;
+
+  border-radius: 3%;
+}
+
+
+/* =================================
+   WHAT I DO
+   ================================= */
+
+.home-focus-grid {
+  max-width: 1000px;
+  margin: 2rem auto 5rem auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 1.5rem;
+}
+
+.home-focus-card {
+  padding: 2rem;
+
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  border-radius: 14px;
+
+  background: rgba(128, 128, 128, 0.04);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.home-focus-card:hover {
+  transform: translateY(-4px);
+
+  box-shadow:
+    0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.focus-icon {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.home-focus-card h3 {
+  margin-top: 0;
+}
+
+.home-focus-card p {
+  line-height: 1.7;
+}
+
+
+/* =================================
+   CURRENTLY EXPLORING
+   ================================= */
+
+.home-exploring {
+  max-width: 900px;
+  margin: 2rem auto 5rem auto;
+}
+
+.exploring-item {
+  display: flex;
+  align-items: flex-start;
+
+  gap: 1.5rem;
+
+  padding: 1.5rem 0;
+
+  border-bottom: 1px solid rgba(128, 128, 128, 0.25);
+}
+
+.exploring-number {
+  font-size: 0.8rem;
+  font-weight: 700;
+  opacity: 0.55;
+
+  min-width: 35px;
+}
+
+.exploring-item h3 {
+  margin-top: 0;
+}
+
+.exploring-item p {
+  margin-bottom: 0;
+}
+
+
+/* =================================
+   DESTINATION CARDS
+   ================================= */
+
+.home-destination-grid {
+  max-width: 1000px;
+  margin: 3rem auto 5rem auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 1.5rem;
+}
+
+.home-destination-card {
+  padding: 2rem;
+
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  border-radius: 14px;
+
+  display: flex;
+  flex-direction: column;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.home-destination-card:hover {
+  transform: translateY(-4px);
+
+  box-shadow:
+    0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.home-destination-card h3 {
+  margin-top: 0;
+}
+
+.home-destination-card p {
+  flex: 1;
+  line-height: 1.7;
+}
+
+.home-destination-card .btn {
+  width: 160px;
+  height: 45px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0 !important;
+  margin: 1rem 0 0 0 !important;
+
+  border-radius: 999px !important;
+}
+
+
+/* =================================
+   SOCIAL
+   ================================= */
+
+.home-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 1.5rem;
+
+  margin: 3rem auto;
+}
+
+.home-social a {
+  width: 45px;
+  height: 45px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid rgba(128, 128, 128, 0.35);
+  border-radius: 50%;
+
+  text-decoration: none;
+
+  font-size: 1.15rem;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.home-social a:hover {
+  transform: translateY(-3px);
+
+  box-shadow:
+    0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+
+/* =================================
+   MOBILE
+   ================================= */
+
+@media (max-width: 768px) {
+
+  .home-hero {
+    flex-direction: column-reverse;
+    text-align: center;
+
+    gap: 2rem;
+
+    margin-top: 3rem;
+  }
+
+  .home-photo img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .home-intro h1 {
+    font-size: 2.5rem;
+  }
+
+  .home-intro h2 {
+    font-size: 1.15rem;
+  }
+
+  .home-intro > p {
+    font-size: 1rem;
+  }
+
+  .home-buttons {
+    justify-content: center;
+  }
+
+  .home-focus-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .home-destination-grid {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+
+@media (max-width: 500px) {
+
+  .home-buttons {
+    gap: 0.6rem;
+  }
+
+  .home-buttons .btn {
+    width: 145px;
+  }
+
+}
+
+
+
+
+/* =================================
+   PROJECTS PAGE
+   ================================= */
+
+
+/* =================================
+   Projects Hero
+   ================================= */
+
+.projects-hero {
+  max-width: 950px;
+
+  margin: 4rem auto 5rem auto;
+
+  text-align: center;
+}
+
+.projects-intro {
+  max-width: 760px;
+
+  margin: 0 auto;
+}
+
+.projects-eyebrow {
+  display: inline-block;
+
+  margin-bottom: 0.8rem;
+
+  font-size: 0.8rem;
+  font-weight: 700;
+
+  letter-spacing: 0.14em;
+
+  color: var(--bs-primary);
+
+  text-decoration: none !important;
+}
+
+.projects-intro h1 {
+  margin: 0 0 1rem 0;
+
+  font-size: 3.2rem;
+}
+
+.projects-intro > p {
+  max-width: 700px;
+
+  margin: 0 auto;
+
+  font-size: 1.05rem;
+
+  line-height: 1.8;
+}
+
+
+/* =================================
+   Project Grid
+   ================================= */
+
+.projects-grid {
+  max-width: 1000px;
+
+  margin: 2rem auto 5rem auto;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+
+  gap: 1.5rem;
+}
+
+
+/* =================================
+   Project Card
+   ================================= */
+
+.project-card {
+  min-height: 390px;
+
+  padding: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  border: 1px solid rgba(128, 128, 128, 0.3);
+
+  border-radius: 14px;
+
+  background: rgba(128, 128, 128, 0.04);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+
+  border-color: var(--bs-primary);
+
+  box-shadow:
+    0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+
+/* =================================
+   Project Icon
+   ================================= */
+
+.project-icon {
+  width: 50px;
+  height: 50px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 1.3rem;
+
+  border-radius: 12px;
+
+  background: color-mix(
+    in srgb,
+    var(--bs-primary) 10%,
+    var(--bs-body-bg)
+  );
+
+  color: var(--bs-primary);
+
+  font-size: 1.4rem;
+}
+
+
+/* =================================
+   Project Content
+   ================================= */
+
+.project-card h3 {
+  margin: 0 0 0.8rem 0;
+
+  font-size: 1.3rem;
+}
+
+.project-card p {
+  flex: 1;
+
+  margin-bottom: 1.3rem;
+
+  line-height: 1.7;
+}
+
+
+/* =================================
+   Project Tags
+   ================================= */
+
+.project-tags {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 0.5rem;
+
+  margin-bottom: 1.5rem;
+}
+
+.project-tags span {
+  padding: 0.3rem 0.7rem;
+
+  border: 1px solid rgba(128, 128, 128, 0.3);
+
+  border-radius: 999px;
+
+  font-size: 0.78rem;
+
+  font-weight: 600;
+
+  color: var(--bs-secondary-color);
+
+  background: rgba(128, 128, 128, 0.04);
+}
+
+
+/* =================================
+   Project Button
+   ================================= */
+
+.project-btn {
+  width: 140px !important;
+  height: 42px !important;
+
+  display: inline-flex !important;
+
+  align-items: center;
+  justify-content: center;
+
+  padding: 0 !important;
+  margin: auto 0 0 0 !important;
+
+  border-radius: 999px !important;
+
+  font-size: 0.9rem;
+  font-weight: 600;
+
+  text-decoration: none !important;
+}
+
+.project-btn:hover {
+  text-decoration: none !important;
+}
+
+
+/* =================================
+   Project Technologies
+   ================================= */
+
+.project-tech-grid {
+  max-width: 1000px;
+
+  margin: 2rem auto 5rem auto;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, 1fr);
+
+  gap: 1rem;
+}
+
+.project-tech {
+  min-height: 110px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 0.6rem;
+
+  border: 1px solid rgba(128, 128, 128, 0.3);
+
+  border-radius: 14px;
+
+  background: rgba(128, 128, 128, 0.04);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.project-tech:hover {
+  transform: translateY(-4px);
+
+  border-color: var(--bs-primary);
+
+  box-shadow:
+    0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.project-tech i {
+  font-size: 1.8rem;
+
+  color: var(--bs-primary);
+}
+
+.project-tech span {
+  font-size: 0.9rem;
+
+  font-weight: 600;
+}
+
+
+/* =================================
+   Project Closing
+   ================================= */
+
+.project-closing {
+  max-width: 800px;
+
+  margin: 3rem auto;
+
+  padding: 1.8rem 2rem;
+
+  text-align: center;
+
+  border: 1px solid rgba(128, 128, 128, 0.3);
+
+  border-radius: 14px;
+
+  background: rgba(128, 128, 128, 0.04);
+}
+
+.project-closing h3 {
+  margin-top: 0;
+
+  margin-bottom: 0.7rem;
+}
+
+.project-closing p {
+  margin-bottom: 0;
+
+  line-height: 1.7;
+}
+
+
+/* =================================
+   Back to Home
+   ================================= */
+
+.projects-back {
+  text-align: center;
+
+  margin: 3rem auto 1rem auto;
+}
+
+.projects-back a {
+  color: var(--bs-secondary-color);
+
+  text-decoration: none !important;
+
+  font-weight: 500;
+
+  transition:
+    color 0.2s ease;
+}
+
+.projects-back a:hover {
+  color: var(--bs-primary);
+
+  text-decoration: none !important;
+}
+
+
+/* =================================
+   Projects Mobile
+   ================================= */
+
+@media (max-width: 768px) {
+
+  .projects-hero {
+    margin-top: 2.5rem;
+
+    margin-bottom: 3.5rem;
+  }
+
+  .projects-intro h1 {
+    font-size: 2.4rem;
+  }
+
+  .projects-intro > p {
+    font-size: 1rem;
+  }
+
+
+  /* Project cards */
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+
+    gap: 1rem;
+  }
+
+  .project-card {
+    min-height: auto;
+
+    padding: 1.5rem;
+  }
+
+
+  /* Technologies */
+
+  .project-tech-grid {
+    grid-template-columns:
+      repeat(2, 1fr);
+
+    gap: 1rem;
+  }
+
+}
+
+
+@media (max-width: 500px) {
+
+  .projects-intro h1 {
+    font-size: 2rem;
+  }
+
+  .projects-intro > p {
+    font-size: 0.95rem;
+  }
+
+
+  .project-card {
+    padding: 1.4rem;
+  }
+
+
+  .project-tech-grid {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+
+
+
+/* ================================
+   Portfolio Buttons
+   ================================ */
+
+.btn {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+
+  width: 160px;
+  height: 45px;
+
+  padding: 0 !important;
+
+  border-radius: 999px !important;
+
+  font-weight: 600;
+  text-align: center;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+
+/* ================================
+   Navigation bar
+   ================================*/
+
+.lecture-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #dee2e6;
+}
+
+.lecture-nav-btn {
+  display: inline-block;
+  padding: 0.6rem 1.1rem;
+  border: 1px solid #0d6efd;
+  border-radius: 0.375rem;
+  text-decoration: none !important;
+  font-weight: 500;
+}
+
+.lecture-nav-btn:hover {
+  text-decoration: none !important;
+}
+
+/* ================================
+   Portfolio Hero
+   ================================ */
+
+.portfolio-hero {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  max-width: 1000px;
+  margin: 3rem auto 4rem auto;
+}
+
+.portfolio-photo {
+  flex: 0 0 280px;
+}
+
+.portfolio-photo img {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+}
+
+.portfolio-intro {
+  flex: 1;
+}
+
+.portfolio-intro h1 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.portfolio-intro h2 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+
+
+.portfolio-buttons {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  margin-top: 1.5rem;
+}
+
+.portfolio-buttons .btn {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+
+  width: 160px;
+  height: 45px;
+
+  padding: 0 !important;
+
+  border-radius: 999px !important;
+
+  font-weight: 600;
+  text-align: center;
+
+  margin: 0 !important;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.portfolio-buttons .btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* =================================
+   About Me
+   ================================= */
+
+.about-section {
+  max-width: 1000px;
+  margin: 2rem auto 5rem auto;
+
+  display: grid;
+  grid-template-columns: minmax(0, 1.7fr) minmax(260px, 0.8fr);
+
+  gap: 2rem;
+  align-items: stretch;
+}
+
+
+/* Main About Content */
+
+.about-main {
+  padding: 2rem 2.2rem;
+
+  border: 1px solid var(--bs-border-color);
+  border-radius: 14px;
+
+  background: color-mix(
+    in srgb,
+    var(--bs-body-bg) 96%,
+    var(--bs-primary)
+  );
+
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
+}
+
+.about-main:hover {
+  border-color: var(--bs-primary);
+
+  box-shadow:
+    0 8px 25px rgba(0, 0, 0, 0.10);
+
+  transform: translateY(-2px);
+}
+
+.about-main p {
+  line-height: 1.8;
+  margin-bottom: 1.25rem;
+}
+
+.about-main p:last-child {
+  margin-bottom: 0;
+}
+
+.about-lead {
+  font-size: 1.08rem;
+  line-height: 1.85 !important;
+}
+
+
+/* Areas of Interest */
+
+.about-interests {
+  padding: 1.5rem;
+
+  border: 1px solid var(--bs-border-color);
+  border-radius: 14px;
+
+  background: rgba(128, 128, 128, 0.04);
+
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
+}
+
+.about-interests:hover {
+  border-color: var(--bs-primary);
+
+  box-shadow:
+    0 8px 25px rgba(0, 0, 0, 0.10);
+
+  transform: translateY(-2px);
+}
+
+
+/* Interest Header */
+
+.about-interest-header {
+  padding-bottom: 1rem;
+  margin-bottom: 0.5rem;
+
+  border-bottom: 1px solid var(--bs-border-color);
+
+  font-size: 0.8rem;
+  font-weight: 700;
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: var(--bs-primary);
+}
+
+
+/* Interest Items */
+
+.about-interest-item {
+  display: flex;
+  align-items: flex-start;
+
+  gap: 1rem;
+
+  padding: 1rem 0;
+
+  border-bottom: 1px solid rgba(128, 128, 128, 0.18);
+}
+
+.about-interest-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.about-interest-item i {
+  width: 32px;
+  height: 32px;
+
+  flex-shrink: 0;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 8px;
+
+  background: color-mix(
+    in srgb,
+    var(--bs-primary) 10%,
+    transparent
+  );
+
+  color: var(--bs-primary);
+
+  font-size: 0.95rem;
+}
+
+.about-interest-item strong {
+  display: block;
+
+  margin-bottom: 0.2rem;
+
+  font-size: 0.92rem;
+}
+
+.about-interest-item span {
+  display: block;
+
+  font-size: 0.78rem;
+  line-height: 1.5;
+
+  opacity: 0.7;
+}
+
+
+/* =================================
+   About Me — Mobile
+   ================================= */
+
+@media (max-width: 768px) {
+
+  .about-section {
+    grid-template-columns: 1fr;
+
+    gap: 1.25rem;
+
+    margin-top: 1.5rem;
+    margin-bottom: 4rem;
+  }
+
+  .about-main {
+    padding: 1.5rem;
+  }
+
+  .about-interests {
+    padding: 1.25rem;
+  }
+
+  .about-lead {
+    font-size: 1rem;
+  }
+
+}
+
+
+/* ================================
+   Mobile
+   ================================ */
+
+@media (max-width: 768px) {
+
+  .portfolio-hero {
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+
+  .portfolio-photo {
+    flex: none;
+  }
+
+  .portfolio-photo img {
+    width: 210px;
+    height: 210px;
+  }
+
+  .portfolio-intro h1 {
+    font-size: 2rem;
+  }
+
+  .portfolio-intro h2 {
+    font-size: 1.1rem;
+  }
+
+}
+
+/* =================================
+   Portfolio Cards
+   ================================= */
+
+.portfolio-cards {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+  max-width: 950px;
+  margin: 3rem auto;
+}
+
+.portfolio-card {
+  padding: 2rem;
+
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  border-radius: 14px;
+
+  background: rgba(128, 128, 128, 0.04);
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.portfolio-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--bs-primary);
+  box-shadow:
+    0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.portfolio-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.8rem;
+}
+
+.portfolio-card p {
+  flex: 1;
+  margin-bottom: 1.5rem;
+}
+
+.portfolio-card .btn {
+  width: 160px;
+  height: 45px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0 !important;
+  margin: 0 !important;
+
+  border-radius: 999px !important;
+  font-weight: 600;
+}
+
+
+/* =================================
+   Portfolio Cards — Mobile
+   ================================= */
+
+@media (max-width: 768px) {
+
+  .portfolio-cards {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .portfolio-card {
+    padding: 1.5rem;
+  }
+
+}
+
+/* =================================
+   Skills
+   ================================= */
+
+.skills-section {
+  max-width: 950px;
+  margin: 2rem auto 4rem auto;
+}
+
+.skill-group {
+  margin-bottom: 2.5rem;
+}
+
+.skill-group h3 {
+  margin-bottom: 1rem;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.skill-card {
+  min-height: 120px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 0.7rem;
+
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  border-radius: 14px;
+
+  background: rgba(128, 128, 128, 0.04);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-4px);
+
+  border-color: var(--bs-primary);
+
+  box-shadow:
+    0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.skill-card i {
+  font-size: 2rem;
+}
+
+.skill-card span {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+@media (max-width: 500px) {
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+/* ================================
+   Education Cards
+   ================================ */
+
+.education-timeline {
+  max-width: 950px;
+  margin: 2rem auto;
+}
+
+.education-item {
+  margin-bottom: 1.5rem;
+}
+
+/* =================================
+   Education Cards
+   ================================= */
+
+.education-card {
+  padding: 1.8rem 2rem;
+
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  border-radius: 14px;
+
+  background: rgba(128, 128, 128, 0.04);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.education-card:hover {
+  transform: translateY(-3px);
+
+  border-color: var(--bs-primary);
+
+  box-shadow:
+    0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.education-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  gap: 1rem;
+}
+
+.education-level {
+  display: block;
+
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+
+  opacity: 0.7;
+
+  margin-bottom: 0.3rem;
+}
+
+.education-card h3 {
+  margin: 0;
+
+  font-size: 1.35rem;
+}
+
+.education-result {
+  white-space: nowrap;
+
+  padding: 0.35rem 0.75rem;
+
+  border: 1px solid currentColor;
+  border-radius: 20px;
+
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.education-institution {
+  margin-top: 1rem;
+
+  font-weight: 600;
+}
+
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+  .education-card {
+    padding: 1.25rem;
+  }
+
+  .education-card-header {
+    flex-direction: column;
+  }
+
+  .education-result {
+    align-self: flex-start;
+  }
+
+}
+
+
+/* =================================
+   CONTACT PAGE
+   ================================= */
+
+
+/* =================================
+   Contact Hero
+   ================================= */
+
+.contact-hero {
+  max-width: 950px;
+  margin: 4rem auto 5rem auto;
+  text-align: center;
+}
+
+.contact-intro {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.contact-eyebrow {
+  display: inline-block;
+
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+
+  color: var(--bs-primary);
+  text-decoration: none !important;
+
+  margin-bottom: 0.8rem;
+}
+
+.contact-intro h1 {
+  font-size: 3.2rem;
+  margin: 0 0 1rem 0;
+}
+
+.contact-intro > p {
+  max-width: 700px;
+  margin: 0 auto;
+
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+
+/* =================================
+   Contact Hero Buttons
+   ================================= */
+
+.contact-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 1rem;
+
+  margin-top: 2rem;
+}
+
+.contact-buttons .btn {
+  width: 160px;
+  height: 45px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0 !important;
+  margin: 0 !important;
+
+  border-radius: 999px !important;
+}
+
+
+/* =================================
+   Contact Cards
+   ================================= */
+
+.contact-grid {
+  max-width: 1000px;
+  margin: 2rem auto 5rem auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 1.5rem;
+}
+
+.contact-card {
+  min-height: 270px;
+
+  padding: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  border-radius: 14px;
+
+  background: rgba(128, 128, 128, 0.04);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-4px);
+
+  border-color: var(--bs-primary);
+
+  box-shadow:
+    0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+
+/* =================================
+   Contact Card Icon
+   ================================= */
+
+.contact-card > i {
+  font-size: 1.7rem;
+
+  margin-bottom: 1.2rem;
+
+  color: var(--bs-primary);
+}
+
+
+/* =================================
+   Contact Card Content
+   ================================= */
+
+.contact-card h3 {
+  margin: 0 0 0.7rem 0;
+}
+
+.contact-card p {
+  flex: 1;
+
+  margin-bottom: 1.2rem;
+
+  line-height: 1.65;
+}
+
+
+/* =================================
+   Contact Card Buttons
+   ================================= */
+
+.contact-card-btn {
+  width: 140px !important;
+  height: 42px !important;
+
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0 !important;
+  margin: auto 0 0 0 !important;
+
+  border-radius: 999px !important;
+
+  font-size: 0.9rem;
+  font-weight: 600;
+
+  text-decoration: none !important;
+}
+
+.contact-card-btn:hover {
+  text-decoration: none !important;
+}
+
+
+/* =================================
+   Professional Interests
+   ================================= */
+
+.interests-grid {
+  max-width: 1000px;
+  margin: 2rem auto 5rem auto;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 1.5rem;
+}
+
+.interest-card {
+  padding: 1.8rem 2rem;
+
+  border-left: 3px solid var(--bs-primary);
+
+  border-top: 1px solid rgba(128, 128, 128, 0.25);
+  border-right: 1px solid rgba(128, 128, 128, 0.25);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.25);
+
+  border-radius: 0 14px 14px 0;
+
+  background: rgba(128, 128, 128, 0.035);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.interest-card:hover {
+  transform: translateY(-3px);
+
+  box-shadow:
+    0 7px 20px rgba(0, 0, 0, 0.1);
+}
+
+.interest-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.6rem;
+}
+
+.interest-card p {
+  margin-bottom: 0;
+
+  line-height: 1.7;
+}
+
+
+/* =================================
+   Contact Note
+   ================================= */
+
+.contact-note {
+  max-width: 800px;
+
+  margin: 3rem auto;
+
+  padding: 1.8rem 2rem;
+
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  border-radius: 14px;
+
+  background: rgba(128, 128, 128, 0.04);
+
+  text-align: center;
+}
+
+.contact-note h3 {
+  margin-top: 0;
+  margin-bottom: 0.7rem;
+}
+
+.contact-note p {
+  margin-bottom: 0;
+
+  line-height: 1.7;
+}
+
+/* =================================
+   Contact Social
+   ================================= */
+
+.contact-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+
+  margin: 3rem auto 1rem auto;
+}
+
+.contact-social a {
+  width: 45px;
+  height: 45px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid rgba(128, 128, 128, 0.35);
+  border-radius: 50%;
+
+  text-decoration: none;
+
+  font-size: 1.15rem;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.contact-social a:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+
+
+
+/* =================================
+   Contact Mobile
+   ================================= */
+
+@media (max-width: 768px) {
+
+  .contact-hero {
+    margin-top: 2.5rem;
+    margin-bottom: 3.5rem;
+  }
+
+  .contact-intro h1 {
+    font-size: 2.4rem;
+  }
+
+  .contact-intro > p {
+    font-size: 1rem;
+  }
+
+
+  /* Hero buttons */
+
+  .contact-buttons {
+    gap: 0.7rem;
+  }
+
+  .contact-buttons .btn {
+    width: 145px;
+  }
+
+
+  /* Contact cards */
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .contact-card {
+    min-height: 250px;
+    padding: 1.5rem;
+  }
+
+
+  /* Interests */
+
+  .interests-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .interest-card {
+    padding: 1.5rem;
+  }
+
+
+  /* Note */
+
+  .contact-note {
+    padding: 1.5rem;
+  }
+}
+
+
+@media (max-width: 500px) {
+
+  .contact-intro h1 {
+    font-size: 2rem;
+  }
+
+  .contact-intro > p {
+    font-size: 0.95rem;
+  }
+
+
+  /* Stack hero buttons */
+
+  .contact-buttons {
+    flex-direction: column;
+  }
+
+  .contact-buttons .btn {
+    width: 180px;
+  }
+
+
+  /* Contact cards */
+
+  .contact-card {
+    padding: 1.4rem;
+  }
+
+  .contact-card-btn {
+    width: 150px !important;
+  }
+}
+
+
+/* =================================
+   TUITION PAGE
+   ================================= */
+
+
+/* =================================
+   Tuition Hero
+   ================================= */
+
+.tuition-hero {
+  max-width: 950px;
+
+  margin: 4rem auto 5rem auto;
+
+  text-align: center;
+}
+
+.tuition-intro {
+  max-width: 760px;
+
+  margin: 0 auto;
+}
+
+.tuition-eyebrow {
+  display: inline-block;
+
+  margin-bottom: 0.8rem;
+
+  font-size: 0.8rem;
+  font-weight: 700;
+
+  letter-spacing: 0.14em;
+
+  color: var(--bs-primary);
+
+  text-decoration: none !important;
+}
+
+.tuition-intro h1 {
+  margin: 0 0 1rem 0;
+
+  font-size: 3.2rem;
+}
+
+.tuition-intro > p {
+  max-width: 720px;
+
+  margin: 0 auto;
+
+  font-size: 1.05rem;
+
+  line-height: 1.8;
+}
+
+
+/* =================================
+   Level Cards
+   ================================= */
+
+.tuition-level-grid {
+  max-width: 1000px;
+
+  margin: 2rem auto 5rem auto;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+
+  gap: 1.5rem;
+}
+
+.tuition-level-card {
+  min-height: 310px;
+
+  padding: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  border: 1px solid rgba(128, 128, 128, 0.3);
+
+  border-radius: 14px;
+
+  background: rgba(128, 128, 128, 0.04);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.tuition-level-card:hover {
+  transform: translateY(-4px);
+
+  border-color: var(--bs-primary);
+
+  box-shadow:
+    0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+
+/* =================================
+   Level Card Header
+   ================================= */
+
+.tuition-card-top {
+  width: 100%;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  margin-bottom: 1.4rem;
+}
+
+.tuition-level {
+  font-size: 0.75rem;
+
+  font-weight: 700;
+
+  text-transform: uppercase;
+
+  letter-spacing: 0.1em;
+
+  color: var(--bs-secondary-color);
+}
+
+.tuition-card-top i {
+  font-size: 1.7rem;
+
+  color: var(--bs-primary);
+}
+
+
+/* =================================
+   Level Card Content
+   ================================= */
+
+.tuition-level-card h3 {
+  margin: 0 0 0.8rem 0;
+
+  font-size: 1.5rem;
+}
+
+.tuition-level-card p {
+  flex: 1;
+
+  margin-bottom: 1.5rem;
+
+  line-height: 1.7;
+}
+
+
+/* =================================
+   Level Card Button
+   ================================= */
+
+.tuition-card-btn {
+  width: 150px !important;
+
+  height: 43px !important;
+
+  display: inline-flex !important;
+
+  align-items: center;
+  justify-content: center;
+
+  padding: 0 !important;
+
+  margin: auto 0 0 0 !important;
+
+  border-radius: 999px !important;
+
+  font-size: 0.9rem;
+
+  font-weight: 600;
+
+  text-decoration: none !important;
+}
+
+.tuition-card-btn:hover {
+  text-decoration: none !important;
+}
+
+
+/* =================================
+   Learning Resources
+   ================================= */
+
+.tuition-resource-grid {
+  max-width: 1000px;
+
+  margin: 2rem auto 5rem auto;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, 1fr);
+
+  gap: 1.2rem;
+}
+
+.tuition-resource-card {
+  min-height: 210px;
+
+  padding: 1.8rem;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: flex-start;
+
+  border: 1px solid rgba(128, 128, 128, 0.3);
+
+  border-radius: 14px;
+
+  background: rgba(128, 128, 128, 0.04);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.tuition-resource-card:hover {
+  transform: translateY(-4px);
+
+  border-color: var(--bs-primary);
+
+  box-shadow:
+    0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+
+/* =================================
+   Resource Icons
+   ================================= */
+
+.tuition-resource-card > i {
+  margin-bottom: 1rem;
+
+  font-size: 1.7rem;
+
+  color: var(--bs-primary);
+}
+
+.tuition-resource-card h3 {
+  margin: 0 0 0.6rem 0;
+
+  font-size: 1.15rem;
+}
+
+.tuition-resource-card p {
+  margin: 0;
+
+  line-height: 1.65;
+}
+
+
+/* =================================
+   Tuition Note
+   ================================= */
+
+.tuition-note {
+  max-width: 800px;
+
+  margin: 3rem auto;
+
+  padding: 1.8rem 2rem;
+
+  text-align: center;
+
+  border: 1px solid rgba(128, 128, 128, 0.3);
+
+  border-radius: 14px;
+
+  background: rgba(128, 128, 128, 0.04);
+}
+
+.tuition-note h3 {
+  margin-top: 0;
+
+  margin-bottom: 0.7rem;
+}
+
+.tuition-note p {
+  margin-bottom: 0;
+
+  line-height: 1.7;
+}
+
+
+/* =================================
+   Back to Home
+   ================================= */
+
+.tuition-back {
+  text-align: center;
+
+  margin: 3rem auto 1rem auto;
+}
+
+.tuition-back a {
+  color: var(--bs-secondary-color);
+
+  font-weight: 500;
+
+  text-decoration: none !important;
+
+  transition:
+    color 0.2s ease;
+}
+
+.tuition-back a:hover {
+  color: var(--bs-primary);
+
+  text-decoration: none !important;
+}
+
+
+/* =================================
+   Tuition Mobile
+   ================================= */
+
+@media (max-width: 768px) {
+
+  .tuition-hero {
+    margin-top: 2.5rem;
+
+    margin-bottom: 3.5rem;
+  }
+
+  .tuition-intro h1 {
+    font-size: 2.4rem;
+  }
+
+  .tuition-intro > p {
+    font-size: 1rem;
+  }
+
+
+  /* Level cards */
+
+  .tuition-level-grid {
+    grid-template-columns: 1fr;
+
+    gap: 1rem;
+  }
+
+  .tuition-level-card {
+    min-height: auto;
+
+    padding: 1.5rem;
+  }
+
+
+  /* Resource cards */
+
+  .tuition-resource-grid {
+    grid-template-columns:
+      repeat(2, 1fr);
+
+    gap: 1rem;
+  }
+
+  .tuition-resource-card {
+    min-height: 190px;
+
+    padding: 1.5rem;
+  }
+
+
+  /* Note */
+
+  .tuition-note {
+    padding: 1.5rem;
+  }
+}
+
+
+@media (max-width: 500px) {
+
+  .tuition-intro h1 {
+    font-size: 2rem;
+  }
+
+  .tuition-intro > p {
+    font-size: 0.95rem;
+  }
+
+
+  .tuition-resource-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tuition-resource-card {
+    min-height: auto;
+  }
+
+}
+
+
+/* =================================
+   HSC PAGE
+   ================================= */
+
+
+/* =================================
+   HSC Hero
+   ================================= */
+
+.hsc-hero {
+  max-width: 950px;
+
+  margin: 4rem auto 5rem auto;
+
+  text-align: center;
+}
+
+.hsc-intro {
+  max-width: 760px;
+
+  margin: 0 auto;
+}
+
+.hsc-eyebrow {
+  display: inline-block;
+
+  margin-bottom: 0.8rem;
+
+  font-size: 0.8rem;
+  font-weight: 700;
+
+  letter-spacing: 0.14em;
+
+  color: var(--bs-primary);
+
+  text-decoration: none !important;
+}
+
+.hsc-intro h1 {
+  margin: 0 0 1rem 0;
+
+  font-size: 3.2rem;
+}
+
+.hsc-intro > p {
+  max-width: 720px;
+
+  margin: 0 auto;
+
+  font-size: 1.05rem;
+
+  line-height: 1.8;
+}
+
+
+/* =================================
+   HSC Subject Grid
+   ================================= */
+
+.hsc-subject-grid {
+  max-width: 1000px;
+
+  margin: 2rem auto 5rem auto;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+
+  gap: 1.5rem;
+}
+
+
+/* =================================
+   HSC Subject Card
+   ================================= */
+
+.hsc-subject-card {
+  min-height: 300px;
+
+  padding: 2rem;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: flex-start;
+
+  border: 1px solid rgba(128, 128, 128, 0.3);
+
+  border-radius: 14px;
+
+  background: rgba(128, 128, 128, 0.04);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.hsc-subject-card:hover {
+  transform: translateY(-4px);
+
+  border-color: var(--bs-primary);
+
+  box-shadow:
+    0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+
+/* =================================
+   Subject Icon
+   ================================= */
+
+.hsc-subject-icon {
+  width: 52px;
+  height: 52px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 1.3rem;
+
+  border-radius: 12px;
+
+  background: color-mix(
+    in srgb,
+    var(--bs-primary) 10%,
+    var(--bs-body-bg)
+  );
+
+  color: var(--bs-primary);
+
+  font-size: 1.5rem;
+}
+
+
+/* =================================
+   Subject Content
+   ================================= */
+
+.hsc-subject-card h3 {
+  margin: 0 0 0.8rem 0;
+
+  font-size: 1.45rem;
+}
+
+.hsc-subject-card p {
+  flex: 1;
+
+  margin-bottom: 1.5rem;
+
+  line-height: 1.7;
+}
+
+
+/* =================================
+   Subject Button
+   ================================= */
+
+.hsc-card-btn {
+  width: 170px !important;
+  height: 43px !important;
+
+  display: inline-flex !important;
+
+  align-items: center;
+  justify-content: center;
+
+  padding: 0 !important;
+
+  margin: auto 0 0 0 !important;
+
+  border-radius: 999px !important;
+
+  font-size: 0.9rem;
+
+  font-weight: 600;
+
+  text-decoration: none !important;
+}
+
+.hsc-card-btn:hover {
+  text-decoration: none !important;
+}
+
+
+/* =================================
+   HSC Table of Contents
+   ================================= */
+
+#TOC {
+  font-size: 0.9rem;
+}
+
+#TOC .nav-link {
+  color: var(--bs-secondary-color);
+
+  transition:
+    color 0.2s ease;
+}
+
+#TOC .nav-link:hover {
+  color: var(--bs-primary);
+}
+
+#TOC .nav-link.active {
+  color: var(--bs-primary);
+
+  font-weight: 600;
+}
+
+
+/* =================================
+   HSC Mobile
+   ================================= */
+
+@media (max-width: 768px) {
+
+  .hsc-hero {
+    margin-top: 2.5rem;
+
+    margin-bottom: 3.5rem;
+  }
+
+  .hsc-intro h1 {
+    font-size: 2.4rem;
+  }
+
+  .hsc-intro > p {
+    font-size: 1rem;
+  }
+
+  .hsc-subject-grid {
+    grid-template-columns: 1fr;
+
+    gap: 1rem;
+  }
+
+  .hsc-subject-card {
+    min-height: auto;
+
+    padding: 1.5rem;
+  }
+
+}
+
+
+@media (max-width: 500px) {
+
+  .hsc-intro h1 {
+    font-size: 2rem;
+  }
+
+  .hsc-intro > p {
+    font-size: 0.95rem;
+  }
+
+}
+
+
+
+/* =========================================================
+   HSC MATHEMATICS
+   ========================================================= */
+
+
+/* =========================================================
+   MATHEMATICS HERO
+   ========================================================= */
+
+.mathematics-hero {
+  max-width: 950px;
+  margin: 4rem auto 5rem auto;
+  text-align: center;
+}
+
+.mathematics-intro {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.mathematics-eyebrow {
+  display: inline-block;
+  margin-bottom: 0.8rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: var(--bs-primary);
+  text-decoration: none !important;
+}
+
+.mathematics-intro h1 {
+  margin: 0 0 1rem 0;
+  font-size: 3.2rem;
+}
+
+.mathematics-intro > p {
+  max-width: 720px;
+  margin: 0 auto;
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+
+/* =========================================================
+   COURSE MATERIALS
+   ========================================================= */
+
+.mathematics-info-grid {
+  max-width: 1000px;
+  margin: 2rem auto 5rem auto;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, minmax(0, 1fr));
+
+  gap: 1.3rem;
+}
+
+
+/* =========================================================
+   COURSE MATERIAL CARD
+   ========================================================= */
+
+.mathematics-info-card {
+  min-height: 190px;
+  padding: 1.8rem;
+
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  border-radius: 14px;
+
+  background: rgba(128, 128, 128, 0.04);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease,
+    background-color 0.2s ease;
+}
+
+.mathematics-info-card:hover {
+  transform: translateY(-4px);
+
+  border-color: var(--bs-primary);
+
+  background: color-mix(
+    in srgb,
+    var(--bs-primary) 4%,
+    var(--bs-body-bg)
+  );
+
+  box-shadow:
+    0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+
+/* =========================================================
+   COURSE MATERIAL ICON
+   ========================================================= */
+
+.mathematics-info-card > i {
+  display: block;
+
+  margin-bottom: 1rem;
+
+  font-size: 1.6rem;
+
+  color: var(--bs-primary);
+}
+
+
+/* =========================================================
+   COURSE MATERIAL HEADING
+   ========================================================= */
+
+.mathematics-info-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.6rem;
+  font-size: 1.15rem;
+}
+
+
+/* =========================================================
+   COURSE MATERIAL TEXT
+   ========================================================= */
+
+.mathematics-info-card p {
+  margin-bottom: 0;
+
+  font-size: 0.94rem;
+
+  line-height: 1.65;
+}
+
+
+/* =========================================================
+   LECTURE GRID
+   ========================================================= */
+
+.mathematics-lecture-grid {
+  max-width: 1000px;
+
+  margin: 2rem auto 5rem auto;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+
+  gap: 1.5rem;
+}
+
+
+/* =========================================================
+   LECTURE CARD
+   ========================================================= */
+
+.mathematics-lecture-card {
+  min-height: 270px;
+
+  padding: 2rem;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: flex-start;
+
+  border: 1px solid rgba(128, 128, 128, 0.3);
+
+  border-radius: 14px;
+
+  background: rgba(128, 128, 128, 0.04);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease,
+    background-color 0.2s ease;
+}
+
+
+/* =========================================================
+   LECTURE CARD HOVER
+   ========================================================= */
+
+.mathematics-lecture-card:hover {
+  transform: translateY(-4px);
+
+  border-color: var(--bs-primary);
+
+  background: color-mix(
+    in srgb,
+    var(--bs-primary) 4%,
+    var(--bs-body-bg)
+  );
+
+  box-shadow:
+    0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+
+/* =========================================================
+   LECTURE HEADER
+   ========================================================= */
+
+.lecture-header {
+  width: 100%;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 1rem;
+
+  margin-bottom: 1rem;
+}
+
+
+/* =========================================================
+   LECTURE NUMBER
+   ========================================================= */
+
+.lecture-number {
+  display: inline-block;
+
+  font-size: 0.75rem;
+
+  font-weight: 700;
+
+  letter-spacing: 0.12em;
+
+  color: var(--bs-primary);
+
+  white-space: nowrap;
+}
+
+
+/* =========================================================
+   LECTURE CHAPTER / PAPER
+   ========================================================= */
+
+.lecture-chapters {
+  margin-bottom: 1.3rem;
+
+  font-size: 1.05rem;
+
+  font-weight: 600;
+
+  line-height: 1.6;
+}
+
+
+/* =========================================================
+   LECTURE CONTENT
+   ========================================================= */
+
+.lecture-content {
+  flex: 1;
+
+  width: 100%;
+
+  margin-bottom: 1.5rem;
+
+  font-size: 0.95rem;
+
+  line-height: 1.75;
+
+  overflow-wrap: break-word;
+}
+
+
+/* =========================================================
+   LECTURE BUTTON
+   ========================================================= */
+
+.mathematics-lecture-btn {
+  width: 155px !important;
+
+  height: 43px !important;
+
+  display: inline-flex !important;
+
+  align-items: center;
+
+  justify-content: center;
+
+  padding: 0 !important;
+
+  margin: 0 !important;
+
+  border-radius: 999px !important;
+
+  font-weight: 600;
+
+  text-align: center;
+
+  text-decoration: none !important;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.mathematics-lecture-btn:hover {
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 5px 15px rgba(0, 0, 0, 0.15);
+
+  text-decoration: none !important;
+}
+
+
+/* =========================================================
+   QUARTO LEFT SIDEBAR
+   ========================================================= */
+
+#quarto-sidebar .sidebar-title {
+  font-weight: 700;
+}
+
+#quarto-sidebar a {
+  text-decoration: none !important;
+}
+
+#quarto-sidebar a:hover {
+  text-decoration: none !important;
+}
+
+#quarto-sidebar .sidebar-item-text {
+  transition:
+    color 0.2s ease,
+    padding-left 0.2s ease;
+}
+
+#quarto-sidebar .sidebar-item-text:hover {
+  color: var(--bs-primary);
+}
+
+#quarto-sidebar
+.sidebar-item-container .active {
+  color: var(--bs-primary) !important;
+
+  font-weight: 600;
+}
+
+
+/* =========================================================
+   RIGHT TABLE OF CONTENTS
+   ========================================================= */
+
+#TOC {
+  font-size: 0.9rem;
+}
+
+#TOC .nav-link {
+  color: var(--bs-secondary-color);
+
+  transition:
+    color 0.2s ease;
+}
+
+#TOC .nav-link:hover {
+  color: var(--bs-primary);
+
+  text-decoration: none;
+}
+
+#TOC .nav-link.active {
+  color: var(--bs-primary);
+
+  font-weight: 600;
+}
+
+
+/* =========================================================
+   MAIN CONTENT
+   ========================================================= */
+
+#quarto-document-content {
+  line-height: 1.75;
+}
+
+
+/* =========================================================
+   CONTENT HEADINGS
+   ========================================================= */
+
+#quarto-document-content h1 {
+  margin-bottom: 1.5rem;
+}
+
+#quarto-document-content h2 {
+  margin-top: 3rem;
+
+  padding-bottom: 0.5rem;
+
+  border-bottom:
+    1px solid rgba(128, 128, 128, 0.25);
+}
+
+#quarto-document-content h3 {
+  margin-top: 2rem;
+}
+
+
+/* =========================================================
+   LECTURE PAGE NAVIGATION
+   ========================================================= */
+
+.lecture-navigation {
+  max-width: 1050px;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  gap: 1rem;
+
+  margin: 4rem auto 2rem;
+
+  padding-top: 1.5rem;
+
+  border-top:
+    1px solid rgba(128, 128, 128, 0.3);
+}
+
+.lecture-nav-btn {
+  display: inline-flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  min-width: 150px;
+
+  min-height: 42px;
+
+  padding: 0.55rem 1rem;
+
+  border:
+    1px solid var(--bs-border-color);
+
+  border-radius: 999px;
+
+  color: var(--bs-body-color);
+
+  text-decoration: none !important;
+
+  font-size: 0.9rem;
+
+  font-weight: 600;
+
+  transition:
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.lecture-nav-btn:hover {
+  border-color: var(--bs-primary);
+
+  color: var(--bs-primary);
+
+  background:
+    color-mix(
+      in srgb,
+      var(--bs-primary) 8%,
+      var(--bs-body-bg)
+    );
+
+  text-decoration: none !important;
+
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 5px 15px rgba(0, 0, 0, 0.10);
+}
+
+
+/* =========================================================
+   CONTACT SOCIAL
+   ========================================================= */
+
+.contact-social {
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  gap: 1.5rem;
+
+  margin: 3rem auto 1rem auto;
+}
+
+.contact-social a {
+  width: 45px;
+
+  height: 45px;
+
+  display: inline-flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  border:
+    1px solid rgba(128, 128, 128, 0.35);
+
+  border-radius: 50%;
+
+  color: var(--bs-body-color);
+
+  text-decoration: none !important;
+
+  font-size: 1.15rem;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.contact-social a:hover {
+  transform: translateY(-3px);
+
+  border-color: var(--bs-primary);
+
+  color: var(--bs-primary);
+
+  box-shadow:
+    0 5px 15px rgba(0, 0, 0, 0.15);
+
+  text-decoration: none !important;
+}
+
+
+/* =========================================================
+   LECTURE PAGE
+   ========================================================= */
+
+
+/* =========================================================
+   LECTURE HERO
+   ========================================================= */
+
+.lecture-hero {
+  max-width: 1000px;
+
+  margin: 2.5rem auto 3rem;
+
+  padding: 2.2rem 2.5rem;
+
+  border:
+    1px solid var(--bs-border-color);
+
+  border-radius: 16px;
+
+  background:
+    color-mix(
+      in srgb,
+      var(--bs-body-bg) 96%,
+      var(--bs-primary)
+    );
+
+  display: flex;
+
+  align-items: flex-end;
+
+  justify-content: space-between;
+
+  gap: 2rem;
+
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
+}
+
+.lecture-hero:hover {
+  border-color: var(--bs-primary);
+
+  box-shadow:
+    0 8px 25px rgba(0, 0, 0, 0.10);
+
+  transform: translateY(-2px);
+}
+
+.lecture-hero-content {
+  flex: 1;
+}
+
+.lecture-eyebrow {
+  display: block;
+
+  margin-bottom: 0.7rem;
+
+  font-size: 0.75rem;
+
+  font-weight: 700;
+
+  letter-spacing: 0.12em;
+
+  color: var(--bs-primary);
+
+  opacity: 0.9;
+}
+
+.lecture-hero-content h1 {
+  margin: 0;
+
+  font-size: 2.5rem;
+
+  font-weight: 700;
+}
+
+.lecture-hero-content h2 {
+  margin: 0.35rem 0 1rem;
+
+  font-size: 1.35rem;
+
+  font-weight: 500;
+
+  opacity: 0.85;
+}
+
+.lecture-description {
+  max-width: 700px;
+
+  margin: 0;
+
+  font-size: 1rem;
+
+  line-height: 1.7;
+
+  opacity: 0.75;
+}
+
+
+/* =========================================================
+   LECTURE META
+   ========================================================= */
+
+.lecture-meta {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: flex-end;
+
+  gap: 0.5rem;
+}
+
+.lecture-meta span {
+  display: inline-flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  padding: 0.4rem 0.75rem;
+
+  border:
+    1px solid var(--bs-border-color);
+
+  border-radius: 20px;
+
+  font-size: 0.78rem;
+
+  font-weight: 600;
+
+  color: var(--bs-body-color);
+
+  background: var(--bs-body-bg);
+}
+
+.lecture-meta span:last-child {
+  color: var(--bs-primary);
+
+  border-color: var(--bs-primary);
+
+  background:
+    color-mix(
+      in srgb,
+      var(--bs-primary) 8%,
+      var(--bs-body-bg)
+    );
+}
+
+
+/* =========================================================
+   LECTURE HEADER CARD
+   ========================================================= */
+
+.lecture-header-card {
+  position: relative;
+
+  max-width: 1050px;
+
+  margin: 2rem auto 3rem;
+
+  padding: 2rem 2.2rem;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 2rem;
+
+  border: 1px solid var(--bs-border-color);
+
+  border-radius: 18px;
+
+  background:
+    linear-gradient(
+      135deg,
+      color-mix(
+        in srgb,
+        var(--bs-primary) 7%,
+        var(--bs-body-bg)
+      ),
+      var(--bs-body-bg)
+    );
+
+  transition:
+    border-color 0.25s ease,
+    box-shadow 0.25s ease,
+    transform 0.25s ease;
+}
+
+/* =========================================================
+   LECTURE CARD HOVER
+   ========================================================= */
+
+.lecture-header-card:hover {
+  transform: translateY(-2px);
+
+  border-color: var(--bs-primary);
+
+  box-shadow:
+    0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+
+/* =========================================================
+   HEADER MAIN
+   ========================================================= */
+
+.lecture-header-main {
+  min-width: 0;
+  flex: 1;
+}
+
+.lecture-subject {
+  margin-bottom: 0.45rem;
+
+  font-size: 0.72rem;
+
+  font-weight: 700;
+
+  letter-spacing: 0.12em;
+
+  color: var(--bs-primary);
+}
+
+
+/* =========================================================
+   LECTURE TITLE ROW
+   ========================================================= */
+
+.lecture-title-row {
+  display: flex;
+
+  align-items: center;
+
+  gap: 0.8rem;
+
+  flex-wrap: wrap;
+
+  margin-bottom: 0.9rem;
+}
+
+.lecture-title-row h1 {
+  margin: 0;
+
+  font-size: 2rem;
+
+  font-weight: 700;
+}
+
+
+/* =========================================================
+   LECTURE CHAPTER
+   ========================================================= */
+
+.lecture-chapter {
+  padding-left: 0.9rem;
+
+  border-left:
+    3px solid var(--bs-primary);
+
+  font-size: 0.92rem;
+
+  font-weight: 600;
+
+  line-height: 1.7;
+
+  color: var(--bs-body-color);
+}
+
+
+/* =========================================================
+   LECTURE CARD CONTENT
+   ========================================================= */
+
+.lecture-card-content {
+  margin-top: 1rem;
+
+  font-size: 0.95rem;
+
+  line-height: 1.75;
+
+  color: var(--bs-body-color);
+}
+
+
+/* =========================================================
+   HEADER DATE
+   ========================================================= */
+
+.lecture-header-date {
+  flex-shrink: 0;
+  margin-left: auto;
+  align-self: center;
+}
+
+.lecture-header-date span {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  padding: 0.55rem 0.9rem;
+  border: 1px solid var(--bs-border-color);
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  white-space: nowrap;
+  background: var(--bs-body-bg);
+  color: var(--bs-body-color);
+}
+
+.lecture-header-card:hover
+.lecture-header-date span {
+  border-color: var(--bs-primary);
+
+  color: var(--bs-primary);
+}
+
+
+/* =========================================================
+   WEEKLY EXAM BADGE
+   ========================================================= */
+
+.weekly-exam-badge {
+  display: inline-flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  padding: 0.42rem 0.75rem;
+
+  border:
+    1px solid
+    color-mix(
+      in srgb,
+      var(--bs-warning) 65%,
+      var(--bs-border-color)
+    );
+
+  border-radius: 999px;
+
+  font-size: 0.7rem;
+
+  font-weight: 700;
+
+  letter-spacing: 0.05em;
+
+  color: var(--bs-warning);
+
+  background:
+    color-mix(
+      in srgb,
+      var(--bs-warning) 7%,
+      var(--bs-body-bg)
+    );
+
+  white-space: nowrap;
+
+  transition:
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    color 0.2s ease;
+}
+
+/* =========================================================
+   WEEKLY EXAM CORNER BADGE
+   ========================================================= */
+
+.weekly-exam-corner-badge {
+  position: absolute;
+
+  top: 1.2rem;
+  right: 1.2rem;
+
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  padding: 0.4rem 0.75rem;
+
+  border: 1px solid var(--bs-warning);
+
+  border-radius: 999px;
+
+  font-size: 0.68rem;
+
+  font-weight: 700;
+
+  letter-spacing: 0.06em;
+
+  color: var(--bs-warning);
+
+  background:
+    color-mix(
+      in srgb,
+      var(--bs-warning) 8%,
+      var(--bs-body-bg)
+    );
+
+  white-space: nowrap;
+
+  z-index: 10;
+}
+
+/* =========================================================
+   WEEKLY EXAM BADGE
+   ========================================================= */
+
+.weekly-exam-corner-badge:hover {
+  background:
+    color-mix(
+      in srgb,
+      var(--bs-warning) 14%,
+      var(--bs-body-bg)
+    );
+}
+
+/* =========================================================
+   WEEKLY EXAM CARD
+   ========================================================= */
+
+.lecture-header-card:has(.weekly-exam-corner-badge) {
+  padding-top: 2.4rem;
+}
+
+
+/* =========================================================
+   WEEKLY EXAM CARD
+   SAME BASE DESIGN AS NORMAL LECTURE
+   ========================================================= */
+
+.lecture-header-card.weekly-exam-card {
+  border-color: var(--bs-border-color);
+
+  background:
+    linear-gradient(
+      135deg,
+      color-mix(
+        in srgb,
+        var(--bs-primary) 7%,
+        var(--bs-body-bg)
+      ),
+      var(--bs-body-bg)
+    );
+
+  box-shadow: none;
+}
+
+
+/* =========================================================
+   WEEKLY EXAM HOVER
+   ========================================================= */
+
+.lecture-header-card.weekly-exam-card:hover {
+  transform: translateY(-2px);
+
+  border-color: var(--bs-primary);
+
+  box-shadow:
+    0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+
+/* =========================================================
+   WEEKLY EXAM BADGE HOVER
+   ========================================================= */
+
+.lecture-header-card.weekly-exam-card:hover
+.weekly-exam-badge {
+  border-color: var(--bs-warning);
+
+  background:
+    color-mix(
+      in srgb,
+      var(--bs-warning) 11%,
+      var(--bs-body-bg)
+    );
+}
+
+
+/* =========================================================
+   LECTURE CONTENT
+   ========================================================= */
+
+.lecture-hero ~ h2,
+.lecture-hero ~ h3 {
+  scroll-margin-top: 5rem;
+}
+
+main h2 {
+  margin-top: 3rem;
+
+  margin-bottom: 1.2rem;
+
+  font-weight: 650;
+}
+
+main h3 {
+  margin-top: 2rem;
+
+  margin-bottom: 0.8rem;
+
+  font-weight: 600;
+}
+
+main h4 {
+  margin-top: 1.5rem;
+
+  font-weight: 600;
+}
+
+main p {
+  line-height: 1.8;
+}
+
+
+/* =========================================================
+   EXAMPLE BOXES
+   ========================================================= */
+
+.example-box {
+  margin: 1.8rem 0;
+
+  padding: 1.5rem 1.7rem;
+
+  border:
+    1px solid var(--bs-border-color);
+
+  border-left:
+    4px solid var(--bs-primary);
+
+  border-radius: 12px;
+
+  background:
+    rgba(128, 128, 128, 0.035);
+
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.example-box:hover {
+  border-color: var(--bs-primary);
+
+  box-shadow:
+    0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.example-box h3 {
+  margin-top: 0;
+
+  margin-bottom: 1rem;
+
+  font-size: 1rem;
+
+  color: var(--bs-primary);
+}
+
+.example-box p:last-child {
+  margin-bottom: 0;
+}
+
+
+/* =========================================================
+   MATHEMATICS
+   ========================================================= */
+
+.math {
+  overflow-x: auto;
+}
+
+.math.display {
+  margin: 1.5rem 0;
+}
+
+
+/* =========================================================
+   CALLOUTS
+   ========================================================= */
+
+.callout {
+  margin: 1.5rem 0;
+
+  border-radius: 12px;
+}
+
+
+/* =========================================================
+   PRACTICE QUESTIONS
+   ========================================================= */
+
+.lecture-questions {
+  margin-top: 2rem;
+}
+
+.lecture-questions ol {
+  padding-left: 1.5rem;
+}
+
+.lecture-questions li {
+  margin-bottom: 1rem;
+
+  line-height: 1.8;
+}
+
+
+/* =========================================================
+   SOLUTIONS
+   ========================================================= */
+
+.lecture-solutions {
+  margin-top: 2rem;
+}
+
+.lecture-solutions h3 {
+  padding-bottom: 0.5rem;
+
+  border-bottom:
+    1px solid var(--bs-border-color);
+}
+
+
+/* =========================================================
+   TABLES
+   ========================================================= */
+
+main table {
+  margin: 1.5rem 0;
+
+  border:
+    1px solid var(--bs-border-color);
+}
+
+main table th {
+  font-weight: 600;
+}
+
+main table td,
+main table th {
+  padding: 0.7rem 0.9rem;
+}
+
+
+/* =========================================================
+   CODE
+   ========================================================= */
+
+main code {
+  border-radius: 5px;
+
+  padding: 0.15rem 0.35rem;
+
+  background:
+    rgba(128, 128, 128, 0.10);
+}
+
+main pre {
+  border-radius: 10px;
+}
+
+
+/* =========================================================
+   LINKS
+   ========================================================= */
+
+main a {
+  text-decoration-thickness: 1px;
+
+  text-underline-offset: 3px;
+}
+
+
+/* =========================================================
+   RIGHT TOC
+   ========================================================= */
+
+#TOC {
+  font-size: 0.88rem;
+}
+
+#TOC a {
+  text-decoration: none;
+}
+
+#TOC a:hover {
+  color: var(--bs-primary);
+}
+
+
+/* =========================================================
+   MOBILE — 768px
+   ========================================================= */
+
+@media (max-width: 768px) {
+
+  /* -----------------------------------------
+     Mathematics
+     ----------------------------------------- */
+
+  .mathematics-hero {
+    margin-top: 2.5rem;
+
+    margin-bottom: 3.5rem;
+  }
+
+  .mathematics-intro h1 {
+    font-size: 2.4rem;
+  }
+
+  .mathematics-intro > p {
+    font-size: 1rem;
+  }
+
+
+  /* -----------------------------------------
+     Course Materials
+     ----------------------------------------- */
+
+  .mathematics-info-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .mathematics-info-card {
+    min-height: auto;
+    padding: 1.5rem;
+  }
+
+
+  /* -----------------------------------------
+     Lecture Cards
+     ----------------------------------------- */
+
+  .mathematics-lecture-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .mathematics-lecture-card {
+    min-height: 0;
+    padding: 1.5rem;
+  }
+
+
+  
+  
+  /* -----------------------------------------
+     Lecture Page Card
+     ----------------------------------------- */
+
+  .lecture-header-card {
+    padding: 1.6rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.3rem;
+  }
+
+  .lecture-title-row {
+    gap: 0.65rem;
+  }
+
+  .lecture-title-row h1 {
+    font-size: 1.7rem;
+  }
+
+  .lecture-header-date {
+    align-self: flex-start;
+  }
+
+
+  /* -----------------------------------------
+     Weekly Exam Badge
+     ----------------------------------------- */
+
+  .weekly-exam-badge {
+    font-size: 0.65rem;
+    padding: 0.35rem 0.65rem;
+  }
+
+
+  /* -----------------------------------------
+     Lecture Navigation
+     ----------------------------------------- */
+
+  .lecture-navigation {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.7rem;
+  }
+
+  .lecture-nav-btn {
+    width: 100%;
+  }
+
+
+  /* -----------------------------------------
+     Example Boxes
+     ----------------------------------------- */
+
+  .example-box {
+    padding: 1.2rem;
+  }
+
+}
+
+
+/* =========================================================
+   MOBILE — 500px
+   ========================================================= */
+
+@media (max-width: 500px) {
+
+  /* -----------------------------------------
+     Mathematics Hero
+     ----------------------------------------- */
+
+  .mathematics-intro h1 {
+    font-size: 2rem;
+  }
+
+  .mathematics-intro > p {
+    font-size: 0.95rem;
+  }
+
+
+  /* -----------------------------------------
+     Lecture Cards
+     ----------------------------------------- */
+
+  .mathematics-lecture-card {
+    padding: 1.4rem;
+  }
+
+
+  /* -----------------------------------------
+     Lecture Page Card
+     ----------------------------------------- */
+
+  .lecture-header-card {
+    padding: 1.3rem;
+  }
+
+  .lecture-title-row {
+    align-items: flex-start;
+    gap: 0.55rem;
+  }
+
+  .lecture-title-row h1 {
+    font-size: 1.6rem;
+  }
+
+
+  /* -----------------------------------------
+     Weekly Exam Badge
+     ----------------------------------------- */
+
+  .weekly-exam-badge {
+    font-size: 0.6rem;
+    letter-spacing: 0.04em;
+    padding: 0.3rem 0.55rem;
+  }
+
+
+  /* -----------------------------------------
+     Date
+     ----------------------------------------- */
+
+  .lecture-header-date span {
+    font-size: 0.74rem;
+  }
+
+
+  /* -----------------------------------------
+     Social
+     ----------------------------------------- */
+
+  .contact-social {
+    gap: 1rem;
+  }
+
+}
+
+
+
+
+/* =========================================================
+   Question CARD
+   ========================================================= */
+
+.q-card {
+  margin: 1.8rem 0;
+  padding: 1.3rem 1.7rem 1.6rem;
+
+  border: 1px solid var(--bs-border-color);
+  border-radius: 12px;
+
+  background:
+    linear-gradient(
+      135deg,
+      color-mix(
+        in srgb,
+        var(--bs-primary) 5%,
+        var(--bs-body-bg)
+      ),
+      var(--bs-body-bg)
+    );
+
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.q-card:hover {
+  transform: translateY(-2px);
+
+  border-color: var(--bs-primary);
+
+  box-shadow:
+    0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+
+/* =========================================================
+   QUESTION NUMBER
+   ========================================================= */
+
+.q-number {
+  display: inline-block;
+
+  width: fit-content;
+
+  margin-bottom: 0.8rem;
+  padding: 0.35rem 0.65rem;
+
+  border: 1px solid var(--bs-primary);
+  border-radius: 50px;
+
+  background:
+    color-mix(
+      in srgb,
+      var(--bs-primary) 12%,
+      var(--bs-body-bg)
+    );
+
+  color: var(--bs-primary);
+
+  font-size: 0.9rem;
+  font-weight: 650;
+  line-height: 1;
+
+  transition:
+    transform 0.2s ease,
+    background-color 0.2s ease,
+    color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.q-number:hover {
+  transform: translateY(-2px);
+
+  background: var(--bs-primary);
+
+  color: var(--bs-body-bg);
+
+  box-shadow:
+    0 5px 15px rgba(var(--bs-primary-rgb), 0.25);
+}
+
+
+
+/* =========================================================
+   OPTION BADGE
+   ========================================================= */
+
+.mcq-badge {
+  display: flex;
+
+  align-items: center;
+
+  min-width: 0;
+  width: 100%;
+
+  box-sizing: border-box;
+
+  padding: 0.65rem 0.85rem;
+
+  border: 1px solid var(--bs-border-color);
+  border-radius: 8px;
+
+  color: var(--bs-body-color);
+
+  text-decoration: none !important;
+
+  line-height: 1.6;
+
+  white-space: normal;
+
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    color 0.2s ease,
+    background-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.mcq-badge:hover {
+  transform: translateY(-2px);
+
+  border-color: var(--bs-primary);
+
+  color: var(--bs-primary);
+
+  background:
+    color-mix(
+      in srgb,
+      var(--bs-primary) 5%,
+      var(--bs-body-bg)
+    );
+
+  box-shadow:
+    0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+
+/* =========================================================
+   INLINE MATHEMATICS INSIDE MCQ
+   ========================================================= */
+
+/*
+   Prevent inline equations from creating
+   their own horizontal scrollbars.
+*/
+
+.mcq-badge .math.inline,
+.mcq-question .math.inline {
+  overflow: visible !important;
+
+  margin-right: 0.3rem;
+}
+
+
+/* =========================================================
+   IMPORTANT:
+   Keep the general display-math scrolling behavior,
+   but NOT for inline math.
+   ========================================================= */
+
+.math.inline {
+  overflow: visible !important;
+}

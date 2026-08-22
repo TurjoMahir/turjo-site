@@ -1,0 +1,192 @@
+---
+title: ""
+toc: false
+---
+
+:::::: projects-hero
+
+:::: projects-intro
+[PROJECTS]{.projects-eyebrow}
+
+# Things I've Built
+
+A collection of projects I've worked on while learning and exploring **programming, data science, statistical computing, databases, and software development**.
+
+I enjoy learning by building practical applications and experimenting with different technologies.
+
+::::
+
+::::::
+
+<br>
+
+## Working Projects
+
+:::::: projects-grid
+
+::: project-card
+
+<div class="project-icon">
+<i class="fa-solid fa-store"></i>
+</div>
+
+<h3>Shop Management System</h3>
+
+<p>
+A desktop-based billing and management system designed for shops, with a focus on inventory, billing, customer management, and database integration.
+</p>
+
+<div class="project-tags">
+<span>Python</span>
+<span>Tkinter</span>
+<span>MySQL</span>
+</div>
+
+<a href="#" class="btn btn-primary project-btn">
+View Project
+</a>
+
+:::
+
+::: project-card
+
+<div class="project-icon">
+<i class="fa-solid fa-envelope"></i>
+</div>
+
+<h3>Email Sending Application</h3>
+
+<p>
+A Python-based desktop application for sending emails through Gmail SMTP, with a simple interface for managing sender credentials and email messages.
+</p>
+
+<div class="project-tags">
+<span>Python</span>
+<span>Tkinter</span>
+<span>SMTP</span>
+</div>
+
+<a href="#" class="btn btn-primary project-btn">
+View Project
+</a>
+
+:::
+
+::: project-card
+
+<div class="project-icon">
+<i class="fa-solid fa-chart-line"></i>
+</div>
+
+<h3>Data Analysis Projects</h3>
+
+<p>
+A collection of projects focused on exploring datasets, performing statistical analysis, creating visualizations, and extracting meaningful insights from data.
+</p>
+
+<div class="project-tags">
+<span>R</span>
+<span>Python</span>
+<span>Statistics</span>
+</div>
+
+<a href="#" class="btn btn-primary project-btn">
+View Project
+</a>
+
+:::
+
+::: project-card
+
+<div class="project-icon">
+<i class="fa-solid fa-database"></i>
+</div>
+
+<h3>Database Projects</h3>
+
+<p>
+Projects involving relational database design, SQL queries, data management, joins, relationships, and practical database-driven applications.
+</p>
+
+<div class="project-tags">
+<span>SQL</span>
+<span>MySQL</span>
+<span>Database</span>
+</div>
+
+<a href="#" class="btn btn-primary project-btn">
+View Project
+</a>
+
+:::
+
+::::::
+
+<br>
+
+## Technologies
+
+:::::: project-tech-grid
+
+::: project-tech
+<i class="fa-brands fa-python"></i>
+<span>Python</span>
+:::
+
+::: project-tech
+<i class="fa-brands fa-r-project"></i>
+<span>R</span>
+:::
+
+::: project-tech
+<i class="fa-solid fa-database"></i>
+<span>SQL</span>
+:::
+
+::: project-tech
+<i class="fa-solid fa-chart-line"></i>
+<span>Data Science</span>
+:::
+
+::: project-tech
+<i class="fa-solid fa-code"></i>
+<span>Programming</span>
+:::
+
+::: project-tech
+<i class="fa-solid fa-server"></i>
+<span>Backend</span>
+:::
+
+::::::
+
+<br>
+
+:::: project-closing
+
+<h3>More Projects Coming</h3>
+
+<p>
+I am continuously building new projects as I learn. This section will grow as I turn new ideas and concepts into practical applications.
+</p>
+
+::::
+
+<br>
+
+::: contact-social
+<a href="https://github.com/TurjoMahir"
+   target="_blank"
+   aria-label="GitHub"> <i class="fa-brands fa-github"></i> </a>
+
+<a href="https://www.linkedin.com/in/md-foysal-uddin-3aa47a406/"
+   target="_blank"
+   aria-label="LinkedIn"> <i class="fa-brands fa-linkedin-in"></i> </a>
+
+<a href="https://www.facebook.com/foysal.uddin.turjo.2005"
+   target="_blank"
+   aria-label="Facebook"> <i class="fa-brands fa-facebook-f"></i> </a>
+
+<a href="mailto:foysaluddinturjo@gmail.com"
+   aria-label="Email"> <i class="fa-solid fa-envelope"></i> </a>
+:::

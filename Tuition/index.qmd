@@ -1,0 +1,179 @@
+---
+title: ""
+toc: false
+---
+
+:::::: tuition-hero
+
+:::: tuition-intro
+[TUITION]{.tuition-eyebrow}
+
+# Learning Space
+
+A collection of learning materials covering **Mathematics, ICT and other academic topics**.
+
+Explore lectures, examples, practice questions and exam questions with solutions to strengthen your preparation for board exams and also university admission tests.
+
+::::
+
+::::::
+
+<br>
+
+## Choose Your Level
+
+:::::: tuition-level-grid
+
+::: tuition-level-card
+
+<div class="tuition-card-top">
+<span class="tuition-level">Higher Secondary</span>
+
+<i class="fa-solid fa-graduation-cap"></i>
+</div>
+
+<h3>HSC</h3>
+
+<p>
+Explore HSC-level learning materials, beginning with Mathematics and expanding into other subjects.
+</p>
+
+<a href="HSC/index.qmd" class="btn btn-primary tuition-card-btn">
+Explore HSC
+</a>
+
+:::
+
+::: tuition-level-card
+
+<div class="tuition-card-top">
+<span class="tuition-level">Secondary</span>
+
+<i class="fa-solid fa-book-open"></i>
+</div>
+
+<h3>SSC</h3>
+
+<p>
+Explore SSC-level tuition materials and resources designed to support structured academic learning.
+</p>
+
+<a href="SSC/index.qmd" class="btn btn-secondary tuition-card-btn">
+Explore SSC
+</a>
+
+:::
+
+::::::
+
+<br>
+
+## Learning Resources
+
+:::::: tuition-resource-grid
+
+::: tuition-resource-card
+
+<i class="fa-solid fa-chalkboard-user"></i>
+
+<h3>Lectures</h3>
+
+<p>
+Lecture materials are arranged in a logical sequence for progressive learning.
+</p>
+
+:::
+
+::: tuition-resource-card
+
+<i class="fa-solid fa-file-lines"></i>
+
+<h3>Notes</h3>
+
+<p>
+Lecture notes provide important concepts, formulas and shortcut techniques for revision.
+</p>
+
+:::
+
+::: tuition-resource-card
+
+<i class="fa-solid fa-lightbulb"></i>
+
+<h3>Examples</h3>
+
+<p>
+Learning with examples that connect theoretical concepts with practical problems.
+</p>
+
+:::
+
+::: tuition-resource-card
+
+<i class="fa-solid fa-circle-question"></i>
+
+<h3>Problems</h3>
+
+<p>
+Type wise problems of previous year board exams and university admission tests.
+</p>
+
+:::
+
+::: tuition-resource-card
+
+<i class="fa-solid fa-list-check"></i>
+
+<h3>Solutions</h3>
+
+<p>
+Detailed step-by-step solutions that explain the reasoning behind each problem.
+</p>
+
+:::
+
+
+::: tuition-resource-card
+
+<i class="fa-solid fa-pen-to-square"></i>
+
+<h3>Exams</h3>
+
+<p>
+Regular exams and weekly exams materials to strengthen the preparation.
+</p>
+
+:::
+
+::::::
+
+<br>
+
+:::: tuition-note
+
+<h3>Learn by Understanding</h3>
+
+<p>
+The goal of this section is not simply to provide answers, but to make concepts easier to understand through explanations, examples, and problem solving.
+</p>
+
+::::
+
+<br>
+
+::: contact-social
+<a href="https://github.com/TurjoMahir"
+   target="_blank"
+   aria-label="GitHub"> <i class="fa-brands fa-github"></i> </a>
+
+<a href="https://www.linkedin.com/in/md-foysal-uddin-3aa47a406/"
+   target="_blank"
+   aria-label="LinkedIn"> <i class="fa-brands fa-linkedin-in"></i> </a>
+
+<a href="https://www.facebook.com/foysal.uddin.turjo.2005"
+   target="_blank"
+   aria-label="Facebook"> <i class="fa-brands fa-facebook-f"></i> </a>
+
+<a href="mailto:foysaluddinturjo@gmail.com"
+   aria-label="Email"> <i class="fa-solid fa-envelope"></i> </a>
+:::
