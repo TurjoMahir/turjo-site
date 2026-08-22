@@ -1,0 +1,324 @@
+[
+  {
+    "objectID": "Portfolio/index.html",
+    "href": "Portfolio/index.html",
+    "title": "Md. Foysal Uddin",
+    "section": "",
+    "text": "Student • University of Dhaka\nINSTITUTE OF APPLIED STATISTICS & DATA SCIENCE (IASDS)\nInterested in Data Science, Statistical Computing, Backend Development, SQL, Python, and R.\n\nView Projects\nContact Me"
+  },
+  {
+    "objectID": "Portfolio/index.html#about-me",
+    "href": "Portfolio/index.html#about-me",
+    "title": "Md. Foysal Uddin",
+    "section": "About Me",
+    "text": "About Me\n\n\n\nI am Md. Foysal Uddin, a student of Applied Statistics and Data Science at the University of Dhaka. My studies have introduced me to statistics, data analysis, programming, and computational thinking.\n\n\nMy interests include data science, statistical computing, backend development, and database systems. I enjoy working with Python, R, SQL, C, Stata, and SPSS, and exploring how programming and data can be used to solve practical problems.\n\n\nI have a strong passion for learning, building, and exploring in these areas. I hope to keep developing my skills through hands-on projects and discover meaningful ways to bring statistics, programming, and data together.\n\n\n\n\nAreas of Interest\n\n\n\n\nData Science Analysis, visualization & data-driven insights\n\n\n\n\n\nBackend Development Programming, APIs & application logic\n\n\n\n\n\nDatabase Systems SQL, MySQL & data management\n\n\n\n\n\nStatistical Computing Statistics, computation & programming"
+  },
+  {
+    "objectID": "Portfolio/index.html#skills-technologies",
+    "href": "Portfolio/index.html#skills-technologies",
+    "title": "Md. Foysal Uddin",
+    "section": "Skills & Technologies",
+    "text": "Skills & Technologies\n\n\n\nProgramming\n\n\n\n Python\n\n\n C\n\n\n SQL\n\n\n\n\n\nData & Statistics\n\n\n\n R\n\n\n Stata\n\n\n SPSS\n\n\n\n\n\nTools & Technologies\n\n\n\n Quarto\n\n\n MySQL\n\n\n Git\n\n\n GitHub\n\n\n RStudio\n\n\n Linux"
+  },
+  {
+    "objectID": "Portfolio/index.html#current-focus",
+    "href": "Portfolio/index.html#current-focus",
+    "title": "Md. Foysal Uddin",
+    "section": "Current Focus",
+    "text": "Current Focus\nMy current focus is on developing stronger skills in R and data science, while continuing to build practical projects with Python."
+  },
+  {
+    "objectID": "Portfolio/index.html#education",
+    "href": "Portfolio/index.html#education",
+    "title": "Md. Foysal Uddin",
+    "section": "Education",
+    "text": "Education\n\n\n\n\n\nSecondary Education\n\nDakhil (2021)\n\n\nGPA 5.00\n\n\nTamirul Millat Kamil Madrasah, Tongi, Gazipur\n\n\n\n\n\n\n\nHigher Secondary Education\n\nHSC (2023)\n\n\nGPA 5.00\n\n\nEngineering University School and College, BUET Campus, Dhaka\n\n\n\n\n\n\n\nUndergraduate\n\nApplied Statistics and Data Science\n\n\nCurrent\n\n\nUniversity of Dhaka\n\n\nCurrently studying Applied Statistics and Data Science, with interests in data science, statistical computing, programming, databases, and data analysis.\n\n\n\n\n\n\n\n\nTuition\n\n\nExplore my lecture-based learning materials for Mathematics and ICT.\n\nExplore Tuition\n\n\n\nContact\n\n\nInterested in working together, discussing a project, or connecting with me?\n\nContact Me"
+  },
+  {
+    "objectID": "Tuition/HSC/index.html",
+    "href": "Tuition/HSC/index.html",
+    "title": "HSC Learning Space",
+    "section": "",
+    "text": "HIGHER SECONDARY CERTIFICATE\n\n\nWelcome to the HSC section of Md. Foysal Uddin’s Learning Space."
+  },
+  {
+    "objectID": "Tuition/HSC/index.html#subjects",
+    "href": "Tuition/HSC/index.html#subjects",
+    "title": "HSC Learning Space",
+    "section": "Subjects",
+    "text": "Subjects\n\n\n\n\n\n\nMathematics\n\n\nLecture-based HSC Higher Mathematics materials and daily exam questions. Solution must on your note.\n\n Explore \n\n\n\n\n\n\nICT\n\n\nHSC ICT lecture materials, core concepts with note, codes when needed and previous year questions.\n\n Explore"
+  },
+  {
+    "objectID": "Tuition/HSC/Mathematics/lecture-03.html",
+    "href": "Tuition/HSC/Mathematics/lecture-03.html",
+    "title": "Lecture 03",
+    "section": "",
+    "text": "HIGHER MATHEMATICS\n\n\n\n\n1st PaperChapter 6.3\n\nTrigonometric functions, Graph, Periodic properties\n\n\nFriday, August 21, 2026",
+    "crumbs": [
+      "Home",
+      "Lectures",
+      "Lecture 03"
+    ]
+  },
+  {
+    "objectID": "Tuition/HSC/Mathematics/lecture-03.html#y-sin-x",
+    "href": "Tuition/HSC/Mathematics/lecture-03.html#y-sin-x",
+    "title": "Lecture 03",
+    "section": "\\(y = \\sin x\\)",
+    "text": "\\(y = \\sin x\\)\n\nDomain, Range, and Period\n\nDomain: \\(x \\in \\mathbb{R}\\)\nRange: \\(y \\in [-1, 1]\\)\nPeriod: \\(2\\pi \\text{ rad} = 360^\\circ\\)\n\n\n\nPlotting Table (\\(-90^\\circ\\) to \\(90^\\circ\\) at \\(15^\\circ\\) Intervals)\n\n\n\n\n\n\n\n\n\n\\(x\\) (Degrees)\n\\(x\\) (Radians)\nExact Value\nDecimal Approximation (\\(y\\))\n\n\n\n\n\\(-90^\\circ\\)\n\\(-\\frac{\\pi}{2}\\)\n\\(-1\\)\n\\(-1.000\\)\n\n\n\\(-75^\\circ\\)\n\\(-\\frac{5\\pi}{12}\\)\n\\(-\\frac{\\sqrt{6}+\\sqrt{2}}{4}\\)\n\\(-0.966\\)\n\n\n\\(-60^\\circ\\)\n\\(-\\frac{\\pi}{3}\\)\n\\(-\\frac{\\sqrt{3}}{2}\\)\n\\(-0.866\\)\n\n\n\\(-45^\\circ\\)\n\\(-\\frac{\\pi}{4}\\)\n\\(-\\frac{1}{\\sqrt{2}}\\)\n\\(-0.707\\)\n\n\n\\(-30^\\circ\\)\n\\(-\\frac{\\pi}{6}\\)\n\\(-\\frac{1}{2}\\)\n\\(-0.500\\)\n\n\n\\(-15^\\circ\\)\n\\(-\\frac{\\pi}{12}\\)\n\\(-\\frac{\\sqrt{6}-\\sqrt{2}}{4}\\)\n\\(-0.259\\)\n\n\n\\(0^\\circ\\)\n\\(0\\)\n\\(0\\)\n\\(0.000\\)\n\n\n\\(15^\\circ\\)\n\\(\\frac{\\pi}{12}\\)\n\\(\\frac{\\sqrt{6}-\\sqrt{2}}{4}\\)\n\\(0.259\\)\n\n\n\\(30^\\circ\\)\n\\(\\frac{\\pi}{6}\\)\n\\(\\frac{1}{2}\\)\n\\(0.500\\)\n\n\n\\(45^\\circ\\)\n\\(\\frac{\\pi}{4}\\)\n\\(\\frac{1}{\\sqrt{2}}\\)\n\\(0.707\\)\n\n\n\\(60^\\circ\\)\n\\(\\frac{\\pi}{3}\\)\n\\(\\frac{\\sqrt{3}}{2}\\)\n\\(0.866\\)\n\n\n\\(75^\\circ\\)\n\\(\\frac{5\\pi}{12}\\)\n\\(\\frac{\\sqrt{6}+\\sqrt{2}}{4}\\)\n\\(0.966\\)\n\n\n\\(90^\\circ\\)\n\\(\\frac{\\pi}{2}\\)\n\\(1\\)\n\\(1.000\\)\n\n\n\n\nDrawing this points\n\n\n\n\n\nGraph of y = sin(x) from -90° to 90°\n\n\n\n\n\n\nA visualization for more angles\n\n\nGraph description: Plot a smooth continuous wave passing through origin \\((0,0)\\), bounded between \\(y = -1\\) and \\(y = 1\\). Show symmetry across the origin.\n\n\n\n\nObservable Properties\n\nOdd Function Symmetry: Symmetric about the origin, verifying \\(\\sin(-x) = -\\sin x\\).\nContinuity: Smooth and continuous without break across the entire real line.\nBoundedness: Bound strictly within the interval \\([-1, 1]\\).",
+    "crumbs": [
+      "Home",
+      "Lectures",
+      "Lecture 03"
+    ]
+  },
+  {
+    "objectID": "Tuition/HSC/Mathematics/lecture-03.html#y-cos-x",
+    "href": "Tuition/HSC/Mathematics/lecture-03.html#y-cos-x",
+    "title": "Lecture 03",
+    "section": "\\(y = \\cos x\\)",
+    "text": "\\(y = \\cos x\\)\n\nDomain, Range, and Period\n\nDomain: \\(x \\in \\mathbb{R}\\)\nRange: \\(y \\in [-1, 1]\\)\nPeriod: \\(2\\pi \\text{ rad} = 360^\\circ\\)\n\n\n\nPlotting Table (\\(-90^\\circ\\) to \\(90^\\circ\\) at \\(15^\\circ\\) Intervals)\n\n\n\n\n\n\n\n\n\n\\(x\\) (Degrees)\n\\(x\\) (Radians)\nExact Value\nDecimal Approximation (\\(y\\))\n\n\n\n\n\\(-90^\\circ\\)\n\\(-\\frac{\\pi}{2}\\)\n\\(0\\)\n\\(0.000\\)\n\n\n\\(-75^\\circ\\)\n\\(-\\frac{5\\pi}{12}\\)\n\\(\\frac{\\sqrt{6}-\\sqrt{2}}{4}\\)\n\\(0.259\\)\n\n\n\\(-60^\\circ\\)\n\\(-\\frac{\\pi}{3}\\)\n\\(\\frac{1}{2}\\)\n\\(0.500\\)\n\n\n\\(-45^\\circ\\)\n\\(-\\frac{\\pi}{4}\\)\n\\(\\frac{1}{\\sqrt{2}}\\)\n\\(0.707\\)\n\n\n\\(-30^\\circ\\)\n\\(-\\frac{\\pi}{6}\\)\n\\(\\frac{\\sqrt{3}}{2}\\)\n\\(0.866\\)\n\n\n\\(-15^\\circ\\)\n\\(-\\frac{\\pi}{12}\\)\n\\(\\frac{\\sqrt{6}+\\sqrt{2}}{4}\\)\n\\(0.966\\)\n\n\n\\(0^\\circ\\)\n\\(0\\)\n\\(1\\)\n\\(1.000\\)\n\n\n\\(15^\\circ\\)\n\\(\\frac{\\pi}{12}\\)\n\\(\\frac{\\sqrt{6}+\\sqrt{2}}{4}\\)\n\\(0.966\\)\n\n\n\\(30^\\circ\\)\n\\(\\frac{\\pi}{6}\\)\n\\(\\frac{\\sqrt{3}}{2}\\)\n\\(0.866\\)\n\n\n\\(45^\\circ\\)\n\\(\\frac{\\pi}{4}\\)\n\\(\\frac{1}{\\sqrt{2}}\\)\n\\(0.707\\)\n\n\n\\(60^\\circ\\)\n\\(\\frac{\\pi}{3}\\)\n\\(\\frac{1}{2}\\)\n\\(0.500\\)\n\n\n\\(75^\\circ\\)\n\\(\\frac{5\\pi}{12}\\)\n\\(\\frac{\\sqrt{6}-\\sqrt{2}}{4}\\)\n\\(0.259\\)\n\n\n\\(90^\\circ\\)\n\\(\\frac{\\pi}{2}\\)\n\\(0\\)\n\\(0.000\\)\n\n\n\n\nDrawing this points\n\n\n\n\n\nGraph of y = cos(x) from -90° to 90°\n\n\n\n\n\n\nA visualization for more angles\n\n\nGraph description: Plot a continuous wave with a peak at \\((0,1)\\) and roots at \\(x = -\\frac{\\pi}{2}\\) and \\(x = \\frac{\\pi}{2}\\). Show symmetry across the y-axis.\n\n\n\n\nObservable Properties\n\nEven Function Symmetry: Symmetric about the y-axis, verifying \\(\\cos(-x) = \\cos x\\).\nPhase Shift Relation: Shifted version of sine wave: \\(\\cos x = \\sin\\left(x + \\frac{\\pi}{2}\\right)\\).\nExtrema: Attains its maximum value \\(1\\) at \\(x = 0\\).",
+    "crumbs": [
+      "Home",
+      "Lectures",
+      "Lecture 03"
+    ]
+  },
+  {
+    "objectID": "Tuition/HSC/Mathematics/lecture-03.html#y-tan-x",
+    "href": "Tuition/HSC/Mathematics/lecture-03.html#y-tan-x",
+    "title": "Lecture 03",
+    "section": "\\(y = \\tan x\\)",
+    "text": "\\(y = \\tan x\\)\n\nDomain, Range, and Period\n\nDomain: \\(\\mathbb{R} \\setminus \\left\\{ \\dots, -\\frac{\\pi}{2}, \\frac{\\pi}{2}, \\frac{3\\pi}{2}, \\dots \\right\\}\\)\nRange: \\(y \\in (-\\infty, \\infty)\\)\nPeriod: \\(\\pi \\text{ rad} = 180^\\circ\\)\n\n\n\nPlotting Table (\\(-90^\\circ\\) to \\(90^\\circ\\) at \\(15^\\circ\\) Intervals)\n\n\n\n\n\n\n\n\n\n\\(x\\) (Degrees)\n\\(x\\) (Radians)\nExact Value\nDecimal Approximation (\\(y\\))\n\n\n\n\n\\(-90^\\circ\\)\n\\(-\\frac{\\pi}{2}\\)\nUndefined\n\\(-\\infty\\) (Asymptote)\n\n\n\\(-75^\\circ\\)\n\\(-\\frac{5\\pi}{12}\\)\n\\(-(2+\\sqrt{3})\\)\n\\(-3.732\\)\n\n\n\\(-60^\\circ\\)\n\\(-\\frac{\\pi}{3}\\)\n\\(-\\sqrt{3}\\)\n\\(-1.732\\)\n\n\n\\(-45^\\circ\\)\n\\(-\\frac{\\pi}{4}\\)\n\\(-1\\)\n\\(-1.000\\)\n\n\n\\(-30^\\circ\\)\n\\(-\\frac{\\pi}{6}\\)\n\\(-\\frac{1}{\\sqrt{3}}\\)\n\\(-0.577\\)\n\n\n\\(-15^\\circ\\)\n\\(-\\frac{\\pi}{12}\\)\n\\(-(2-\\sqrt{3})\\)\n\\(-0.268\\)\n\n\n\\(0^\\circ\\)\n\\(0\\)\n\\(0\\)\n\\(0.000\\)\n\n\n\\(15^\\circ\\)\n\\(\\frac{\\pi}{12}\\)\n\\(2-\\sqrt{3}\\)\n\\(0.268\\)\n\n\n\\(30^\\circ\\)\n\\(\\frac{\\pi}{6}\\)\n\\(\\frac{1}{\\sqrt{3}}\\)\n\\(0.577\\)\n\n\n\\(45^\\circ\\)\n\\(\\frac{\\pi}{4}\\)\n\\(1\\)\n\\(1.000\\)\n\n\n\\(60^\\circ\\)\n\\(\\frac{\\pi}{3}\\)\n\\(\\sqrt{3}\\)\n\\(1.732\\)\n\n\n\\(75^\\circ\\)\n\\(\\frac{5\\pi}{12}\\)\n\\(2+\\sqrt{3}\\)\n\\(3.732\\)\n\n\n\\(90^\\circ\\)\n\\(\\frac{\\pi}{2}\\)\nUndefined\n\\(+\\infty\\) (Asymptote)\n\n\n\n\nDrawing this points\n\n\n\n\n\nGraph of y = tan(x) from -90° to 90° with Vertical Asymptotes\n\n\n\n\n\n\nA visualization for more angles\n\n\nGraph description: Plot vertical asymptotic lines at \\(x = -\\frac{\\pi}{2}\\) and \\(x = \\frac{\\pi}{2}\\). Show the strictly increasing monotonic curve passing through \\((0,0)\\).\n\n\n\n\nObservable Properties\n\nVertical Asymptotes: Asymptotes occur where \\(\\cos x = 0\\), i.e., \\(x = \\pm 90^\\circ\\).\nMonotonic Increasing: Strictly increases on each open interval between its asymptotes.\nOdd Function: \\(\\tan(-x) = -\\tan x\\).",
+    "crumbs": [
+      "Home",
+      "Lectures",
+      "Lecture 03"
+    ]
+  },
+  {
+    "objectID": "Tuition/HSC/Mathematics/lecture-03.html#y-cot-x",
+    "href": "Tuition/HSC/Mathematics/lecture-03.html#y-cot-x",
+    "title": "Lecture 03",
+    "section": "\\(y = \\cot x\\)",
+    "text": "\\(y = \\cot x\\)\n\nDomain, Range, and Period\n\nDomain: \\(\\mathbb{R} \\setminus \\{ \\dots, -\\pi, 0, \\pi, \\dots \\}\\)\nRange: \\(y \\in (-\\infty, \\infty)\\)\nPeriod: \\(\\pi \\text{ rad} = 180^\\circ\\)\n\n\n\nPlotting Table (\\(-90^\\circ\\) to \\(90^\\circ\\) at \\(15^\\circ\\) Intervals)\n\n\n\n\n\n\n\n\n\n\\(x\\) (Degrees)\n\\(x\\) (Radians)\nExact Value\nDecimal Approximation (\\(y\\))\n\n\n\n\n\\(-90^\\circ\\)\n\\(-\\frac{\\pi}{2}\\)\n\\(0\\)\n\\(0.000\\)\n\n\n\\(-75^\\circ\\)\n\\(-\\frac{5\\pi}{12}\\)\n\\(-(2-\\sqrt{3})\\)\n\\(-0.268\\)\n\n\n\\(-60^\\circ\\)\n\\(-\\frac{\\pi}{3}\\)\n\\(-\\frac{1}{\\sqrt{3}}\\)\n\\(-0.577\\)\n\n\n\\(-45^\\circ\\)\n\\(-\\frac{\\pi}{4}\\)\n\\(-1\\)\n\\(-1.000\\)\n\n\n\\(-30^\\circ\\)\n\\(-\\frac{\\pi}{6}\\)\n\\(-\\sqrt{3}\\)\n\\(-1.732\\)\n\n\n\\(-15^\\circ\\)\n\\(-\\frac{\\pi}{12}\\)\n\\(-(2+\\sqrt{3})\\)\n\\(-3.732\\)\n\n\n\\(0^\\circ\\)\n\\(0\\)\nUndefined\n\\(\\pm\\infty\\) (Asymptote)\n\n\n\\(15^\\circ\\)\n\\(\\frac{\\pi}{12}\\)\n\\(2+\\sqrt{3}\\)\n\\(3.732\\)\n\n\n\\(30^\\circ\\)\n\\(\\frac{\\pi}{6}\\)\n\\(\\sqrt{3}\\)\n\\(1.732\\)\n\n\n\\(45^\\circ\\)\n\\(\\frac{\\pi}{4}\\)\n\\(1\\)\n\\(1.000\\)\n\n\n\\(60^\\circ\\)\n\\(\\frac{\\pi}{3}\\)\n\\(\\frac{1}{\\sqrt{3}}\\)\n\\(0.577\\)\n\n\n\\(75^\\circ\\)\n\\(\\frac{5\\pi}{12}\\)\n\\(2-\\sqrt{3}\\)\n\\(0.268\\)\n\n\n\\(90^\\circ\\)\n\\(\\frac{\\pi}{2}\\)\n\\(0\\)\n\\(0.000\\)\n\n\n\n\nDrawing this points\n\n\n\n\n\nGraph of y = cot(x) from -90° to 90° with Vertical Asymptote at x = 0°\n\n\n\n\n\n\nA visualization for more angles\n\n\nGraph description: Plot vertical asymptotic line at \\(x = 0\\). Show strictly decreasing curves passing through \\(y=0\\) at \\(x = -\\frac{\\pi}{2}\\) and \\(x = \\frac{\\pi}{2}\\).\n\n\n\n\nObservable Properties\n\nVertical Asymptote at Origin: Asymptote exists at \\(x = 0^\\circ\\) because \\(\\sin(0) = 0\\).\nMonotonic Decreasing: Strictly decreases between consecutive asymptotes.\nReciprocal Symmetry: \\(\\cot x = \\frac{1}{\\tan x}\\).",
+    "crumbs": [
+      "Home",
+      "Lectures",
+      "Lecture 03"
+    ]
+  },
+  {
+    "objectID": "Tuition/HSC/Mathematics/lecture-03.html#y-sec-x",
+    "href": "Tuition/HSC/Mathematics/lecture-03.html#y-sec-x",
+    "title": "Lecture 03",
+    "section": "\\(y = \\sec x\\)",
+    "text": "\\(y = \\sec x\\)\n\nDomain, Range, and Period\n\nDomain: \\(\\mathbb{R} \\setminus \\left\\{ \\frac{(2n+1)\\pi}{2} \\mid n \\in \\mathbb{Z} \\right\\}\\)\nRange: \\(y \\in (-\\infty, -1] \\cup [1, \\infty)\\)\nPeriod: \\(2\\pi \\text{ rad} = 360^\\circ\\)\n\n\n\nPlotting Table (\\(-90^\\circ\\) to \\(90^\\circ\\) at \\(15^\\circ\\) Intervals)\n\n\n\n\n\n\n\n\n\n\\(x\\) (Degrees)\n\\(x\\) (Radians)\nExact Value\nDecimal Approximation (\\(y\\))\n\n\n\n\n\\(-90^\\circ\\)\n\\(-\\frac{\\pi}{2}\\)\nUndefined\n\\(+\\infty\\) (Asymptote)\n\n\n\\(-75^\\circ\\)\n\\(-\\frac{5\\pi}{12}\\)\n\\(\\sqrt{6}+\\sqrt{2}\\)\n\\(3.864\\)\n\n\n\\(-60^\\circ\\)\n\\(-\\frac{\\pi}{3}\\)\n\\(2\\)\n\\(2.000\\)\n\n\n\\(-45^\\circ\\)\n\\(-\\frac{\\pi}{4}\\)\n\\(\\sqrt{2}\\)\n\\(1.414\\)\n\n\n\\(-30^\\circ\\)\n\\(-\\frac{\\pi}{6}\\)\n\\(\\frac{2}{\\sqrt{3}}\\)\n\\(1.155\\)\n\n\n\\(-15^\\circ\\)\n\\(-\\frac{\\pi}{12}\\)\n\\(\\sqrt{6}-\\sqrt{2}\\)\n\\(1.035\\)\n\n\n\\(0^\\circ\\)\n\\(0\\)\n\\(1\\)\n\\(1.000\\)\n\n\n\\(15^\\circ\\)\n\\(\\frac{\\pi}{12}\\)\n\\(\\sqrt{6}-\\sqrt{2}\\)\n\\(1.035\\)\n\n\n\\(30^\\circ\\)\n\\(\\frac{\\pi}{6}\\)\n\\(\\frac{2}{\\sqrt{3}}\\)\n\\(1.155\\)\n\n\n\\(45^\\circ\\)\n\\(\\frac{\\pi}{4}\\)\n\\(\\sqrt{2}\\)\n\\(1.414\\)\n\n\n\\(60^\\circ\\)\n\\(\\frac{\\pi}{3}\\)\n\\(2\\)\n\\(2.000\\)\n\n\n\\(75^\\circ\\)\n\\(\\frac{5\\pi}{12}\\)\n\\(\\sqrt{6}+\\sqrt{2}\\)\n\\(3.864\\)\n\n\n\\(90^\\circ\\)\n\\(\\frac{\\pi}{2}\\)\nUndefined\n\\(+\\infty\\) (Asymptote)\n\n\n\n\nDrawing this points\n\n\n\n\n\nGraph of y = sec(x) from -90° to 90° with Vertical Asymptotes\n\n\n\n\n\n\nA visualization for more angles\n\n\nGraph description: Plot vertical asymptotes at \\(x = \\pm \\frac{\\pi}{2}\\). Draw a U-shaped curve with a local minimum at \\((0, 1)\\) staying strictly above \\(y = 1\\) in this domain segment.\n\n\n\n\nObservable Properties\n\nRange Gap: No graph exists in the open interval \\((-1, 1)\\).\nEven Function: Symmetric with respect to the y-axis, \\(\\sec(-x) = \\sec x\\).\nLocal Minimum: Reaches local minimum at \\((0, 1)\\).",
+    "crumbs": [
+      "Home",
+      "Lectures",
+      "Lecture 03"
+    ]
+  },
+  {
+    "objectID": "Tuition/HSC/Mathematics/lecture-03.html#y-csc-x",
+    "href": "Tuition/HSC/Mathematics/lecture-03.html#y-csc-x",
+    "title": "Lecture 03",
+    "section": "\\(y = \\csc x\\)",
+    "text": "\\(y = \\csc x\\)\n\nDomain, Range, and Period\n\nDomain: \\(\\mathbb{R} \\setminus \\{ n\\pi \\mid n \\in \\mathbb{Z} \\}\\)\nRange: \\(y \\in (-\\infty, -1] \\cup [1, \\infty)\\)\nPeriod: \\(2\\pi \\text{ rad} = 360^\\circ\\)\n\n\n\nPlotting Table (\\(-90^\\circ\\) to \\(90^\\circ\\) at \\(15^\\circ\\) Intervals)\n\n\n\n\n\n\n\n\n\n\\(x\\) (Degrees)\n\\(x\\) (Radians)\nExact Value\nDecimal Approximation (\\(y\\))\n\n\n\n\n\\(-90^\\circ\\)\n\\(-\\frac{\\pi}{2}\\)\n\\(-1\\)\n\\(-1.000\\)\n\n\n\\(-75^\\circ\\)\n\\(-\\frac{5\\pi}{12}\\)\n\\(-(\\sqrt{6}-\\sqrt{2})\\)\n\\(-1.035\\)\n\n\n\\(-60^\\circ\\)\n\\(-\\frac{\\pi}{3}\\)\n\\(-\\frac{2}{\\sqrt{3}}\\)\n\\(-1.155\\)\n\n\n\\(-45^\\circ\\)\n\\(-\\frac{\\pi}{4}\\)\n\\(-\\sqrt{2}\\)\n\\(-1.414\\)\n\n\n\\(-30^\\circ\\)\n\\(-\\frac{\\pi}{6}\\)\n\\(-2\\)\n\\(-2.000\\)\n\n\n\\(-15^\\circ\\)\n\\(-\\frac{\\pi}{12}\\)\n\\(-(\\sqrt{6}+\\sqrt{2})\\)\n\\(-3.864\\)\n\n\n\\(0^\\circ\\)\n\\(0\\)\nUndefined\n\\(\\pm\\infty\\) (Asymptote)\n\n\n\\(15^\\circ\\)\n\\(\\frac{\\pi}{12}\\)\n\\(\\sqrt{6}+\\sqrt{2}\\)\n\\(3.864\\)\n\n\n\\(30^\\circ\\)\n\\(\\frac{\\pi}{6}\\)\n\\(2\\)\n\\(2.000\\)\n\n\n\\(45^\\circ\\)\n\\(\\frac{\\pi}{4}\\)\n\\(\\sqrt{2}\\)\n\\(1.414\\)\n\n\n\\(60^\\circ\\)\n\\(\\frac{\\pi}{3}\\)\n\\(\\frac{2}{\\sqrt{3}}\\)\n\\(1.155\\)\n\n\n\\(75^\\circ\\)\n\\(\\frac{5\\pi}{12}\\)\n\\(\\sqrt{6}-\\sqrt{2}\\)\n\\(1.035\\)\n\n\n\\(90^\\circ\\)\n\\(\\frac{\\pi}{2}\\)\n\\(1\\)\n\\(1.000\\)\n\n\n\n\nDrawing this points\n\n\n\n\n\nGraph of y = csc(x) from -90° to 90° with Vertical Asymptote at x = 0°\n\n\n\n\n\n\nA visualization for more angles\n\n\nGraph description: Plot vertical asymptote at \\(x = 0\\). Show inverted U-shaped branch for \\(x &lt; 0\\) (local maximum at \\((-90^\\circ, -1)\\)) and upright U-shaped branch for \\(x &gt; 0\\) (local minimum at \\((90^\\circ, 1)\\)).\n\n\n\n\nObservable Properties\n\nAsymptote at \\(x = 0\\): Splitting the function into positive and negative branches.\nRange Gap: Values never lie strictly between \\(-1\\) and \\(1\\).\nOdd Function Symmetry: \\(\\csc(-x) = -\\csc x\\).\n\n\n← Previous Lecture\nNext Lecture →",
+    "crumbs": [
+      "Home",
+      "Lectures",
+      "Lecture 03"
+    ]
+  },
+  {
+    "objectID": "Tuition/HSC/Mathematics/index.html",
+    "href": "Tuition/HSC/Mathematics/index.html",
+    "title": "Higher Mathematics",
+    "section": "",
+    "text": "HIGHER SECONDARY CERTIFICATE\n\n\nStructured HSC Higher Mathematics lectures covering concepts, explanations, examples, exam questions and solutions.",
+    "crumbs": [
+      "Home",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "Tuition/HSC/Mathematics/index.html#course-materials",
+    "href": "Tuition/HSC/Mathematics/index.html#course-materials",
+    "title": "Higher Mathematics",
+    "section": "Course Materials",
+    "text": "Course Materials\n\n\n\n\nLectures\n\n\nFollow the lectures in sequence to build understanding topic by topic.\n\n\n\n\n\nExams\n\n\nApply the concepts through carefully selected questions and problems.\n\n\n\n\n\nSolutions\n\n\nReview detailed solutions and understand the reasoning behind each step.",
+    "crumbs": [
+      "Home",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "Tuition/HSC/Mathematics/index.html#lectures",
+    "href": "Tuition/HSC/Mathematics/index.html#lectures",
+    "title": "Higher Mathematics",
+    "section": "Lectures",
+    "text": "Lectures\n\n\n\nLECTURE 01\n\n\nElementary\n\n\nReview of function, Properties of function, Types of function, Vertical line test\n\nOpen\n\n\n\nLECTURE 02\n\n\n1st Paper Chapter 6.1, 6.2\n\n\nAngle conversion (D to R, R to D), Arc distance, Sector of a circle, Trigonometric ratios and formulas, Limitations of ratios\n\nOpen\n\n\n\nLECTURE 03\n\n\n1st Paper Chapter 6.3\n\n\nTrigonometric functions, Graph, Periodic properties\n\nOpen",
+    "crumbs": [
+      "Home",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "Tuition/index.html",
+    "href": "Tuition/index.html",
+    "title": "Learning Space",
+    "section": "",
+    "text": "TUITION\n\n\nA collection of learning materials covering Mathematics, ICT and other academic topics.\nExplore lectures, examples, practice questions and exam questions with solutions to strengthen your preparation for board exams and also university admission tests."
+  },
+  {
+    "objectID": "Tuition/index.html#choose-your-level",
+    "href": "Tuition/index.html#choose-your-level",
+    "title": "Learning Space",
+    "section": "Choose Your Level",
+    "text": "Choose Your Level\n\n\n\nHigher Secondary\n\n\n\nHSC\n\n\nExplore HSC-level learning materials, beginning with Mathematics and expanding into other subjects.\n\n Explore HSC \n\n\n\nSecondary\n\n\n\nSSC\n\n\nExplore SSC-level tuition materials and resources designed to support structured academic learning.\n\n Explore SSC"
+  },
+  {
+    "objectID": "Tuition/index.html#learning-resources",
+    "href": "Tuition/index.html#learning-resources",
+    "title": "Learning Space",
+    "section": "Learning Resources",
+    "text": "Learning Resources\n\n\n\n\nLectures\n\n\nLecture materials are arranged in a logical sequence for progressive learning.\n\n\n\n\n\nNotes\n\n\nLecture notes provide important concepts, formulas and shortcut techniques for revision.\n\n\n\n\n\nExamples\n\n\nLearning with examples that connect theoretical concepts with practical problems.\n\n\n\n\n\nProblems\n\n\nType wise problems of previous year board exams and university admission tests.\n\n\n\n\n\nSolutions\n\n\nDetailed step-by-step solutions that explain the reasoning behind each problem.\n\n\n\n\n\nExams\n\n\nRegular exams and weekly exams materials to strengthen the preparation.\n\n\n\n\n\n\nLearn by Understanding\n\n\nThe goal of this section is not simply to provide answers, but to make concepts easier to understand through explanations, examples, and problem solving."
+  },
+  {
+    "objectID": "Contact/index.html",
+    "href": "Contact/index.html",
+    "title": "Let’s Connect",
+    "section": "",
+    "text": "GET IN TOUCH\n\n\nWhether you have a project in mind, want to discuss an opportunity, or simply want to connect, I would be happy to hear from you.\nI am currently interested in data science, statistical computing, backend development, programming, research, and teaching.\n\nEmail Me\nLinkedIn"
+  },
+  {
+    "objectID": "Contact/index.html#contact",
+    "href": "Contact/index.html#contact",
+    "title": "Let’s Connect",
+    "section": "Contact",
+    "text": "Contact\n\n\n\n\nEmail\n\n\nFor inquiries, discussions, and collaboration.\n\n Email Me \n\n\n\n\nGitHub\n\n\nExplore my projects, orginal code, and ongoing work.\n\n Visit GitHub \n\n\n\n\nLinkedIn\n\n\nConnect with me for professional opportunities.\n\n Visit LinkedIn"
+  },
+  {
+    "objectID": "Contact/index.html#professional-interests",
+    "href": "Contact/index.html#professional-interests",
+    "title": "Let’s Connect",
+    "section": "Professional Interests",
+    "text": "Professional Interests\nI am particularly interested in opportunities involving:\n\n\n\nData Science\n\n\nData analysis, statistical modelling, visualization, and data-driven problem solving.\n\n\n\n\nProgramming\n\n\nPython, R, SQL, backend development, and software development projects.\n\n\n\n\nResearch & Collaboration\n\n\nResearch projects, technical collaboration, and opportunities to learn and build together.\n\n\n\n\nTeaching\n\n\nMathematics, programming, statistics, and educational content development.\n\n\n\n\n\n\nPreferred Contact\n\n\nFor professional inquiries, email or LinkedIn is preferred. If you are reaching out about a project or collaboration, feel free to briefly describe what you have in mind."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "",
+    "section": "",
+    "text": "APPLIED STATISTICS & DATA SCIENCE\n\n\nI am a student of Applied Statistics and Data Science at the University of Dhaka, interested in programming, data analysis, and building practical solutions with data and technology.\n\n\nView Portfolio\nView Projects"
+  },
+  {
+    "objectID": "index.html#what-i-do",
+    "href": "index.html#what-i-do",
+    "title": "",
+    "section": "What I Do",
+    "text": "What I Do\n\n\n\n\n\n\nData Science\n\n\nExploring data through statistical analysis, visualization, and data-driven problem solving using R and other statistical tools.\n\n\n\n\n\n\n\nProgramming\n\n\nBuilding practical applications and strengthening my programming skills with Python, C, SQL, and backend-oriented development.\n\n\n\n\n\n\n\nData & Databases\n\n\nInterested in database systems, SQL, data management, and the connection between software and data."
+  },
+  {
+    "objectID": "index.html#currently-exploring",
+    "href": "index.html#currently-exploring",
+    "title": "",
+    "section": "Currently Exploring",
+    "text": "Currently Exploring\n\n\n01\n\n\nR & Statistical Computing\n\n\nDeveloping stronger skills in R, statistical analysis, visualization, and reproducible data workflows.\n\n\n\n\n02\n\n\nBackend Development\n\n\nExploring backend programming, SQL, databases, and how applications interact with data.\n\n\n\n\n03\n\n\nPractical Projects\n\n\nTurning what I learn into real projects and documenting the process along the way.\n\n\n\n\n\n\n\n\nTuition\n\n\nLecture-based learning materials for Mathematics and ICT.\n\nExplore Tuition\n\n\n\nPortfolio\n\n\nLearn more about my education, skills, interests, and professional direction.\n\nView Portfolio\n\n\n\nContact\n\n\nInterested in collaboration, projects, or professional opportunities?\n\nContact Me"
+  },
+  {
+    "objectID": "Tuition/HSC/Mathematics/lecture-01.html",
+    "href": "Tuition/HSC/Mathematics/lecture-01.html",
+    "title": "Lecture 01",
+    "section": "",
+    "text": "HIGHER MATHEMATICS\n\n\n\n\nElementary\n\nReview of function, Properties of function, Types of function, Vertical line test\n\n\nSunday, August 16, 2026",
+    "crumbs": [
+      "Home",
+      "Lectures",
+      "Lecture 01"
+    ]
+  },
+  {
+    "objectID": "Tuition/HSC/Mathematics/lecture-01.html#introduction",
+    "href": "Tuition/HSC/Mathematics/lecture-01.html#introduction",
+    "title": "Lecture 01",
+    "section": "Introduction",
+    "text": "Introduction\nIn this lecture we are reviewing the concept of function and relation, basic properties of a function and a relation, diffirent types of function, how to check wheter a relation is function or not using vertical line test and related problems.",
+    "crumbs": [
+      "Home",
+      "Lectures",
+      "Lecture 01"
+    ]
+  },
+  {
+    "objectID": "Tuition/HSC/Mathematics/lecture-02.html",
+    "href": "Tuition/HSC/Mathematics/lecture-02.html",
+    "title": "Lecture 02",
+    "section": "",
+    "text": "HIGHER MATHEMATICS\n\nLecture 02\n\n\n1st PaperChapter 6.1, 6.2\n\nAngle conversion (D to R, R to D), Arc distance, Sector of a circle, Trigonometric ratios and formulas, Limitations of ratios\n\n\nMonday, August 17, 2026\n\n\n\n\nAngle Concepts & Systems of Measurement\n\nAngle\nAn angle is formed by the rotation of a ray about a fixed point (called the vertex) from an initial position (initial side) to a terminal position (terminal side).\n\nTwo Types of Angles: Geometric and Trigonometric\n\nGeometric Angle: Formed by the union of two static non-collinear rays meeting at a common endpoint.\nTrigonometric Angle: Formed by the dynamic rotation of a single ray about a fixed point from an initial vector to a terminal vector.\n\n\n\nDifferences Between Geometric and Trigonometric Angles\n\n\n\n\n\n\n\n\nFeature\nGeometric Angle\nTrigonometric Angle\n\n\n\n\nMagnitude Range\nRestricted to \\(0^\\circ \\le \\theta \\le 360^\\circ\\).\nUnbounded: \\(-\\infty &lt; \\theta &lt; \\infty\\).\n\n\nSign / Direction\nAlways non-negative (direction is irrelevant).\nSigned: Anti-clockwise rotation is positive (\\(+\\)); Clockwise rotation is negative (\\(-\\)).\n\n\nMultiple Rotations\nCannot exceed \\(360^\\circ\\) (one full rotation).\nAccounts for multiple full revolutions (e.g., \\(750^\\circ = 2 \\times 360^\\circ + 30^\\circ\\)).\n\n\n\n\n\n\n\nAngle Systems of Unit Measurement\n\n1. Sexagesimal System (English System)\nIn this system, a right angle is divided into \\(90\\) equal parts called degrees (\\(^\\circ\\)).\n\n\\(1 \\text{ Right Angle} = 90^\\circ\\) (Degrees)\n\\(1^\\circ = 60'\\) (Minutes of arc)\n\\(1' = 60''\\) (Seconds of arc)\n\n\n\n2. Circular System (Radian System)\nThe standard SI unit for angular measure in pure mathematics.\n\nDefinition of Radian (\\(1^c\\) or \\(1 \\text{ rad}\\)): One radian is the measure of an angle subtended at the center of a circle by an arc whose length is equal to the radius of the circle.\n\n\n\n\n3. Centesimal System (French System)\nA metric-aligned system where a right angle is divided into \\(100\\) equal parts called grades or gradians (\\(\\text{gon}\\) or \\(^\\text{g}\\)).\n\nDefinition: \\(1 \\text{ Grade}\\) (\\(1^\\text{g}\\)) is \\(\\frac{1}{100}\\text{th}\\) of a right angle.\n\\(1 \\text{ Right Angle} = 100^\\text{g}\\) (Grades)\n\\(1^\\text{g} = 100^\\text{c}\\) (Centesimal Minutes)\n\\(1^\\text{c} = 100^\\text{cc}\\) (Centesimal Seconds)\n\n\n\n\n\nConversion Between Units\nSince \\(1 \\text{ Right Angle} = 90^\\circ = 100^\\text{g} = \\frac{\\pi}{2} \\text{ radians}\\):\n\\[\\pi \\text{ radians} = 180^\\circ = 200^\\text{g}\\]\n\nFundamental Conversion Formulas\n\\[1^\\circ = \\frac{\\pi}{180} \\text{ rad} \\approx 0.017453 \\text{ rad}\\] \\[1 \\text{ rad} = \\left(\\frac{180}{\\pi}\\right)^\\circ \\approx 57^\\circ 17' 45''\\]\n\n\nConversions\n\nDegree-Minute-Second (DMS) to Radians: Convert minutes and seconds to decimal degrees first: \\[\\theta^\\circ = D + \\frac{M}{60} + \\frac{S}{3600}\\] \\[\\theta \\text{ (rad)} = \\theta^\\circ \\times \\frac{\\pi}{180}\\]\nRadians to Degree-Minute-Second: Multiply by \\(\\frac{180}{\\pi}\\) to get decimal degrees, then convert fractional parts to minutes (\\(\\times 60\\)) and seconds (\\(\\times 60\\)).\n\n\n\n\n\n\nCircular Geometry: Arcs & Sectors\n\nArc Distance Formula (\\(s = r\\theta\\))\n\nLet a circle have radius \\(r\\). An arc of length \\(s\\) subtends an angle \\(\\theta\\) in radians at the center.\n\\[\\theta = \\frac{\\text{Arc Length}}{\\text{Radius}} = \\frac{s}{r} \\implies s = r\\theta \\quad (\\theta \\text{ MUST be in radians})\\]\n\n\nArea of a Circular Sector\n\nDerivation\nThe area of a full circle (\\(\\pi r^2\\)) corresponds to a central angle of \\(2\\pi\\) radians. By linear proportion:\n\\[\\frac{\\text{Area of Sector}}{\\text{Area of Circle}} = \\frac{\\text{Central Angle}}{2\\pi}\\]\n\\[\\frac{A}{\\pi r^2} = \\frac{\\theta}{2\\pi} \\implies A = \\frac{1}{2} r^2 \\theta\\]\nUsing \\(s = r\\theta\\), this can also be expressed as: \\[A = \\frac{1}{2} r s\\]\n\n\n\n\n\nTrigonometric Ratios & Core Identities\nFor an acute angle \\(\\theta\\) in a right-angled triangle with Opp (opposite), Adj (adjacent), and Hyp (hypotenuse):\n\n\nDefinitions & Reciprocal Relations\n\\[\\sin\\theta = \\frac{\\text{Opp}}{\\text{Hyp}} = \\frac{y}{r}, \\quad \\csc\\theta = \\frac{1}{\\sin\\theta} = \\frac{r}{y}\\] \\[\\cos\\theta = \\frac{\\text{Adj}}{\\text{Hyp}} = \\frac{x}{r}, \\quad \\sec\\theta = \\frac{1}{\\cos\\theta} = \\frac{r}{x}\\] \\[\\tan\\theta = \\frac{\\text{Opp}}{\\text{Adj}} = \\frac{y}{x}, \\quad \\cot\\theta = \\frac{1}{\\tan\\theta} = \\frac{x}{y}\\]\n\n\nQuotient Identities\n\\[\\tan\\theta = \\frac{\\sin\\theta}{\\cos\\theta}, \\quad \\cot\\theta = \\frac{\\cos\\theta}{\\sin\\theta}\\]\n\n\nPythagorean Identities\n\\[\\sin^2\\theta + \\cos^2\\theta = 1\\] \\[1 + \\tan^2\\theta = \\sec^2\\theta \\implies \\sec^2\\theta - \\tan^2\\theta = 1\\] \\[1 + \\cot^2\\theta = \\csc^2\\theta \\implies \\csc^2\\theta - \\cot^2\\theta = 1\\]\n\n\n\n\nTable of Standard Angle Values\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\(\\theta\\) (Deg)\n\\(\\theta\\) (Rad)\n\\(\\sin\\theta\\)\n\\(\\cos\\theta\\)\n\\(\\tan\\theta\\)\n\\(\\csc\\theta\\)\n\\(\\sec\\theta\\)\n\\(\\cot\\theta\\)\n\n\n\n\n\\(0^\\circ\\)\n\\(0\\)\n\\(0\\)\n\\(1\\)\n\\(0\\)\nUndefined\n\\(1\\)\nUndefined\n\n\n\\(30^\\circ\\)\n\\(\\frac{\\pi}{6}\\)\n\\(\\frac{1}{2}\\)\n\\(\\frac{\\sqrt{3}}{2}\\)\n\\(\\frac{1}{\\sqrt{3}}\\)\n\\(2\\)\n\\(\\frac{2}{\\sqrt{3}}\\)\n\\(\\sqrt{3}\\)\n\n\n\\(45^\\circ\\)\n\\(\\frac{\\pi}{4}\\)\n\\(\\frac{1}{\\sqrt{2}}\\)\n\\(\\frac{1}{\\sqrt{2}}\\)\n\\(1\\)\n\\(\\sqrt{2}\\)\n\\(\\sqrt{2}\\)\n\\(1\\)\n\n\n\\(60^\\circ\\)\n\\(\\frac{\\pi}{3}\\)\n\\(\\frac{\\sqrt{3}}{2}\\)\n\\(\\frac{1}{2}\\)\n\\(\\sqrt{3}\\)\n\\(\\frac{2}{\\sqrt{3}}\\)\n\\(2\\)\n\\(\\frac{1}{\\sqrt{3}}\\)\n\n\n\\(90^\\circ\\)\n\\(\\frac{\\pi}{2}\\)\n\\(1\\)\n\\(0\\)\nUndefined\n\\(1\\)\nUndefined\n\\(0\\)\n\n\n\n\n\n\nType-Wise Problems with Solutions\n\nType 1: Angle Unit Conversion\nProblem 1.1 (Standard): Convert \\(36^\\circ 15' 27''\\) into radians.\nSolution:\n\\[15' = \\left(\\frac{15}{60}\\right)^\\circ = 0.25^\\circ\\] \\[27'' = \\left(\\frac{27}{3600}\\right)^\\circ = 0.0075^\\circ\\] \\[\\theta^\\circ = 36^\\circ + 0.25^\\circ + 0.0075^\\circ = 36.2575^\\circ\\] \\[\\theta \\text{ (rad)} = 36.2575 \\times \\frac{\\pi}{180} = \\frac{36.2575 \\pi}{180} \\approx 0.6328 \\text{ rad}\\]\n\nProblem 1.2 (Advanced - University Style): Express an angle of \\(\\frac{7\\pi}{16} \\text{ rad}\\) in Sexagesimal (\\(^\\circ \\, ' \\, ''\\)) and Centesimal (\\(\\text{gon}\\)) systems.\nSolution:\n1. Sexagesimal: \\[\\theta = \\frac{7\\pi}{16} \\times \\frac{180^\\circ}{\\pi} = \\frac{1260^\\circ}{16} = 78.75^\\circ\\] \\[0.75^\\circ = (0.75 \\times 60)' = 45'\\] \\[\\therefore \\theta = 78^\\circ 45' 00''\\]\n\nCentesimal: \\[\\theta = \\frac{7\\pi}{16} \\times \\frac{200^\\text{g}}{\\pi} = \\frac{1400^\\text{g}}{16} = 87.5^\\text{g} = 87^\\text{g} \\, 50^\\text{c}\\]\n\n\n\n\nType 2: \\(s = r\\theta\\) Applications\nProblem 2.1 (Practical): A circular track has a radius of \\(200\\text{ m}\\). A runner covers an arc length of \\(150\\text{ m}\\). Find the central angle in degrees.\nSolution:\n\\[s = 150\\text{ m}, \\quad r = 200\\text{ m}\\] \\[\\theta = \\frac{s}{r} = \\frac{150}{200} = 0.75 \\text{ radians}\\] \\[\\theta^\\circ = 0.75 \\times \\frac{180^\\circ}{\\pi} \\approx 42.97^\\circ = 42^\\circ 58' 12''\\]\n\nProblem 2.2 (Practical): The radius of the Earth is \\(6400\\text{ km}\\). Find the distance between two places on the equator that subtend an angle of \\(1^\\circ 30'\\) at the center.\nSolution:\n\\[\\theta = 1^\\circ 30' = 1.5^\\circ = 1.5 \\times \\frac{\\pi}{180} = \\frac{\\pi}{120} \\text{ rad}\\] \\[s = r\\theta = 6400 \\times \\frac{\\pi}{120} = \\frac{160\\pi}{3} \\approx 167.55\\text{ km}\\]\n\nProblem 2.3 (Conceptual - Olympiad / Competition Style): Two concentric circles have radii \\(r_1\\) and \\(r_2\\) (\\(r_2 &gt; r_1\\)). A line segment tangent to the inner circle forms a chord of length \\(2L\\) in the outer circle. Derive the area of the annular region between the two circles using circular sector integration concepts.\nSolution:\nLet the tangent point on the inner circle be \\(P\\), forming a right triangle with the center \\(O\\) and an endpoint of the chord \\(Q\\).\nIn \\(\\triangle OPQ\\), \\(OP = r_1\\), \\(OQ = r_2\\), and \\(PQ = L\\).\nBy Pythagorean theorem: \\(r_2^2 - r_1^2 = L^2\\).\nThe area of the region (annulus) is: \\[\\text{Area} = \\pi r_2^2 - \\pi r_1^2 = \\pi(r_2^2 - r_1^2) = \\pi L^2\\]\n\n\n\nType 3: Clock Hand Angles\n\nGeneral Shortcut Formula\nThe acute angle \\(\\theta\\) between the hour hand and minute hand at \\(H\\) hours and \\(M\\) minutes is:\n\\[\\theta = \\left| 30H - \\frac{11}{2}M \\right|^\\circ\\]\n(If \\(\\theta &gt; 180^\\circ\\), the smaller angle is \\(360^\\circ - \\theta\\).)\n\nProblem 3.1: Find the angle between the hands of a clock at \\(8:20\\).\nSolution:\nHere \\(H = 8\\), \\(M = 20\\). \\[\\theta = \\left| 30(8) - \\frac{11}{2}(20) \\right| = |240 - 110| = 130^\\circ\\] \\[\\text{In Radians: } 130 \\times \\frac{\\pi}{180} = \\frac{13\\pi}{18} \\text{ rad}\\]\n\nProblem 3.2: At what time between \\(3\\) o’clock and \\(4\\) o’clock will the hands of a clock coincide?\nSolution:\nHands coincide when \\(\\theta = 0^\\circ\\). Set \\(H = 3\\): \\[\\left| 30(3) - \\frac{11}{2}M \\right| = 0 \\implies 90 = \\frac{11}{2}M \\implies M = \\frac{180}{11} = 16 \\frac{4}{11} \\text{ minutes}\\] The hands coincide at \\(3\\text{ hours } 16 \\frac{4}{11}\\text{ minutes}\\).\n\n\n\n\nType 4: Wheel Revolutions\nProblem 4.1: The wheel of a car has a diameter of \\(84\\text{ cm}\\). How many revolutions per minute (RPM) must it make to maintain a speed of \\(66\\text{ km/h}\\)?\nSolution:\n1. Radius (\\(r\\)): \\(\\frac{84}{2} = 42\\text{ cm} = 0.42\\text{ m}\\).\n2. Circumference (\\(C\\)): \\(2\\pi r = 2 \\pi (0.42) = 0.84\\pi\\text{ m}\\).\n3. Speed in m/min:\n\\[v = \\frac{66 \\times 1000\\text{ m}}{60\\text{ min}} = 1100\\text{ m/min}\\] 4. Revolutions per minute:\n\\[N = \\frac{\\text{Distance per minute}}{\\text{Circumference}} = \\frac{1100}{0.84\\pi} = \\frac{1100}{0.84 \\times \\frac{22}{7}} = \\frac{1100}{2.64} = 416.67\\text{ rev/min}\\]\n\n\n\nType 5: Classic & Competition Proofs\nProblem 5.1: If \\(\\tan\\alpha + \\sec\\alpha = x\\), show that \\(\\sin\\alpha = \\frac{x^2 - 1}{x^2 + 1}\\).\nProof:\nGiven \\(\\sec\\alpha + \\tan\\alpha = x\\).\nWe know the identity \\(\\sec^2\\alpha - \\tan^2\\alpha = 1 \\implies (\\sec\\alpha - \\tan\\alpha)(\\sec\\alpha + \\tan\\alpha) = 1\\).\n\\[\\implies \\sec\\alpha - \\tan\\alpha = \\frac{1}{x}\\]\nAdding the two equations: \\[2\\sec\\alpha = x + \\frac{1}{x} = \\frac{x^2 + 1}{x} \\implies \\sec\\alpha = \\frac{x^2 + 1}{2x} \\implies \\cos\\alpha = \\frac{2x}{x^2 + 1}\\]\nSubtracting the two equations: \\[2\\tan\\alpha = x - \\frac{1}{x} = \\frac{x^2 - 1}{x} \\implies \\tan\\alpha = \\frac{x^2 - 1}{2x}\\]\nSince \\(\\sin\\alpha = \\tan\\alpha \\cdot \\cos\\alpha\\): \\[\\sin\\alpha = \\left(\\frac{x^2 - 1}{2x}\\right) \\cdot \\left(\\frac{2x}{x^2 + 1}\\right) = \\frac{x^2 - 1}{x^2 + 1} \\quad \\blacksquare\\]\n\nProblem 5.2: If \\(\\sin A + \\sin^2 A = 1\\), prove that \\(\\cos^2 A + \\cos^4 A = 1\\).\nProof:\nGiven \\(\\sin A = 1 - \\sin^2 A\\).\nUsing \\(\\sin^2 A + \\cos^2 A = 1 \\implies 1 - \\sin^2 A = \\cos^2 A\\).\n\\[\\therefore \\sin A = \\cos^2 A\\]\nSquaring both sides: \\[\\sin^2 A = \\cos^4 A\\]\nSubstitute \\(\\sin^2 A = 1 - \\cos^2 A\\): \\[1 - \\cos^2 A = \\cos^4 A \\implies \\cos^2 A + \\cos^4 A = 1 \\quad \\blacksquare\\]\n\nProblem 5.3: Prove that \\(\\frac{\\cos A}{1 - \\tan A} + \\frac{\\sin A}{1 - \\cot A} = \\sin A + \\cos A\\).\nProof:\n\\[\\text{LHS} = \\frac{\\cos A}{1 - \\frac{\\sin A}{\\cos A}} + \\frac{\\sin A}{1 - \\frac{\\cos A}{\\sin A}} = \\frac{\\cos^2 A}{\\cos A - \\sin A} + \\frac{\\sin^2 A}{\\sin A - \\cos A}\\] \\[\\text{LHS} = \\frac{\\cos^2 A}{\\cos A - \\sin A} - \\frac{\\sin^2 A}{\\cos A - \\sin A} = \\frac{\\cos^2 A - \\sin^2 A}{\\cos A - \\sin A}\\] \\[\\text{LHS} = \\frac{(\\cos A - \\sin A)(\\cos A + \\sin A)}{\\cos A - \\sin A} = \\cos A + \\sin A = \\text{RHS} \\quad \\blacksquare\\]\n\nProblem 5.4: Prove that \\(\\sqrt{\\frac{1 + \\sin\\theta}{1 - \\sin\\theta}} = \\sec\\theta + \\tan\\theta\\).\nProof:\nMultiply numerator and denominator under the root by \\((1 + \\sin\\theta)\\): \\[\\text{LHS} = \\sqrt{\\frac{(1 + \\sin\\theta)^2}{(1 - \\sin\\theta)(1 + \\sin\\theta)}} = \\sqrt{\\frac{(1 + \\sin\\theta)^2}{1 - \\sin^2\\theta}} = \\sqrt{\\frac{(1 + \\sin\\theta)^2}{\\cos^2\\theta}}\\] \\[\\text{LHS} = \\frac{1 + \\sin\\theta}{\\cos\\theta} = \\frac{1}{\\cos\\theta} + \\frac{\\sin\\theta}{\\cos\\theta} = \\sec\\theta + \\tan\\theta = \\text{RHS} \\quad \\blacksquare\\]\n\nProblem 5.5: If \\(a \\cos\\theta + b \\sin\\theta = c\\), prove that \\(a \\sin\\theta - b \\cos\\theta = \\pm \\sqrt{a^2 + b^2 - c^2}\\).\nProof:\nLet \\(a \\sin\\theta - b \\cos\\theta = x\\).\nSquare both equations and add them: \\[(a \\cos\\theta + b \\sin\\theta)^2 + (a \\sin\\theta - b \\cos\\theta)^2 = c^2 + x^2\\] \\[a^2 \\cos^2\\theta + b^2 \\sin^2\\theta + 2ab\\cos\\theta\\sin\\theta + a^2 \\sin^2\\theta + b^2 \\cos^2\\theta - 2ab\\sin\\theta\\cos\\theta = c^2 + x^2\\] \\[a^2(\\cos^2\\theta + \\sin^2\\theta) + b^2(\\sin^2\\theta + \\cos^2\\theta) = c^2 + x^2\\] \\[a^2(1) + b^2(1) = c^2 + x^2 \\implies x^2 = a^2 + b^2 - c^2\\] \\[x = \\pm \\sqrt{a^2 + b^2 - c^2} \\quad \\blacksquare\\]\n\nProblem 5.6: Eliminate \\(\\theta\\) from \\(x = a \\sec\\theta\\) and \\(y = b \\tan\\theta\\).\nProof:\nFrom the given equations: \\[\\sec\\theta = \\frac{x}{a}, \\quad \\tan\\theta = \\frac{y}{b}\\]\nUsing the identity \\(\\sec^2\\theta - \\tan^2\\theta = 1\\): \\[\\left(\\frac{x}{a}\\right)^2 - \\left(\\frac{y}{b}\\right)^2 = 1 \\implies \\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1 \\quad \\blacksquare\\]\n\nProblem 5.7: Prove that \\((1 + \\cot\\theta - \\csc\\theta)(1 + \\tan\\theta + \\sec\\theta) = 2\\).\nProof:\nConvert all ratios to sine and cosine: \\[\\text{LHS} = \\left(1 + \\frac{\\cos\\theta}{\\sin\\theta} - \\frac{1}{\\sin\\theta}\\right) \\left(1 + \\frac{\\sin\\theta}{\\cos\\theta} + \\frac{1}{\\cos\\theta}\\right)\\] \\[\\text{LHS} = \\left(\\frac{\\sin\\theta + \\cos\\theta - 1}{\\sin\\theta}\\right) \\left(\\frac{\\cos\\theta + \\sin\\theta + 1}{\\cos\\theta}\\right)\\] \\[\\text{LHS} = \\frac{[(\\sin\\theta + \\cos\\theta) - 1][(\\sin\\theta + \\cos\\theta) + 1]}{\\sin\\theta \\cos\\theta} = \\frac{(\\sin\\theta + \\cos\\theta)^2 - 1^2}{\\sin\\theta \\cos\\theta}\\] \\[\\text{LHS} = \\frac{\\sin^2\\theta + \\cos^2\\theta + 2\\sin\\theta\\cos\\theta - 1}{\\sin\\theta \\cos\\theta} = \\frac{1 + 2\\sin\\theta\\cos\\theta - 1}{\\sin\\theta \\cos\\theta} = \\frac{2\\sin\\theta\\cos\\theta}{\\sin\\theta\\cos\\theta} = 2 \\quad \\blacksquare\\]\n\nProblem 5.8: If \\(\\sec\\theta - \\tan\\theta = \\frac{1}{3}\\), find the value of \\(\\sec\\theta + \\tan\\theta\\) and \\(\\sin\\theta\\).\nProof/Solution:\nSince \\(\\sec^2\\theta - \\tan^2\\theta = 1 \\implies (\\sec\\theta - \\tan\\theta)(\\sec\\theta + \\tan\\theta) = 1\\): \\[\\sec\\theta + \\tan\\theta = \\frac{1}{\\sec\\theta - \\tan\\theta} = \\frac{1}{1/3} = 3\\]\nAdding \\(\\sec\\theta - \\tan\\theta = \\frac{1}{3}\\) and \\(\\sec\\theta + \\tan\\theta = 3\\): \\[2\\sec\\theta = \\frac{10}{3} \\implies \\sec\\theta = \\frac{5}{3} \\implies \\cos\\theta = \\frac{3}{5}\\]\nSubtracting equations: \\[2\\tan\\theta = 3 - \\frac{1}{3} = \\frac{8}{3} \\implies \\tan\\theta = \\frac{4}{3}\\] \\[\\sin\\theta = \\tan\\theta \\cdot \\cos\\theta = \\frac{4}{3} \\cdot \\frac{3}{5} = \\frac{4}{5} \\quad \\blacksquare\\]\n\nProblem 5.9: Prove that \\(\\frac{\\tan A + \\sec A - 1}{\\tan A - \\sec A + 1} = \\frac{1 + \\sin A}{\\cos A}\\).\nProof:\nReplace \\(1\\) in the numerator with \\((\\sec^2 A - \\tan^2 A)\\): \\[\\text{LHS} = \\frac{(\\tan A + \\sec A) - (\\sec^2 A - \\tan^2 A)}{\\tan A - \\sec A + 1}\\] \\[\\text{LHS} = \\frac{(\\tan A + \\sec A) - (\\sec A - \\tan A)(\\sec A + \\tan A)}{\\tan A - \\sec A + 1}\\] \\[\\text{LHS} = \\frac{(\\sec A + \\tan A)[1 - (\\sec A - \\tan A)]}{\\tan A - \\sec A + 1} = \\frac{(\\sec A + \\tan A)(1 - \\sec A + \\tan A)}{\\tan A - \\sec A + 1}\\] \\[\\text{LHS} = \\sec A + \\tan A = \\frac{1}{\\cos A} + \\frac{\\sin A}{\\cos A} = \\frac{1 + \\sin A}{\\cos A} = \\text{RHS} \\quad \\blacksquare\\]\n\nProblem 5.10: Prove that \\(\\sin^6\\theta + \\cos^6\\theta = 1 - 3\\sin^2\\theta\\cos^2\\theta\\).\nProof:\nUsing the identity \\(a^3 + b^3 = (a + b)^3 - 3ab(a + b)\\): \\[\\text{LHS} = (\\sin^2\\theta)^3 + (\\cos^2\\theta)^3\\] \\[\\text{LHS} = (\\sin^2\\theta + \\cos^2\\theta)^3 - 3\\sin^2\\theta\\cos^2\\theta(\\sin^2\\theta + \\cos^2\\theta)\\] Since \\(\\sin^2\\theta + \\cos^2\\theta = 1\\): \\[\\text{LHS} = (1)^3 - 3\\sin^2\\theta\\cos^2\\theta(1) = 1 - 3\\sin^2\\theta\\cos^2\\theta = \\text{RHS} \\quad \\blacksquare\\]\n\n\n\n\nPractice Problems\n\n\nQuestion 1\nBUET 17-18 Combined Board 2018\nIf \\(\\cos\\alpha + \\sec\\alpha = \\frac{5}{2}\\), then prove that, \\(\\cos^n\\alpha + \\sec^n\\alpha = 2^n + 2^{-n}\\)\n\n\nQuestion 2\nIf \\(\\csc A + \\csc B + \\csc C = 0\\), then prove that, \\((\\sum\\sin A)^2 = \\sum\\sin^2A\\).\n\n\n← Previous Lecture\nNext Lecture →",
+    "crumbs": [
+      "Home",
+      "Lectures",
+      "Lecture 02"
+    ]
+  },
+  {
+    "objectID": "Tuition/HSC/Mathematics/lecture-04.html",
+    "href": "Tuition/HSC/Mathematics/lecture-04.html",
+    "title": "Lecture 04",
+    "section": "",
+    "text": "HIGHER MATHEMATICS\n\n\n\n\n1st PaperChapter 6.1, 6.2, 6.3\n\n\n\nMonday, August 24, 2026\n\nWEEKLY 01",
+    "crumbs": [
+      "Home",
+      "Lectures",
+      "Weekly 01"
+    ]
+  },
+  {
+    "objectID": "Tuition/HSC/Mathematics/lecture-04.html#mcq-part-10-marks",
+    "href": "Tuition/HSC/Mathematics/lecture-04.html#mcq-part-10-marks",
+    "title": "Lecture 04",
+    "section": "MCQ Part (10 Marks)",
+    "text": "MCQ Part (10 Marks)\n\nQuestion-01\nIf \\(f(x)=x^2+2x+1\\), then find \\(f(2)\\).\na. \\(5\\) b. \\(7\\) c. \\(9\\) d. \\(11\\)\n\n\nQuestion-02\nWhat is the measure of each interior angle of a regular nonagon?\na. \\(40\\) b. \\(140\\) c. \\(60\\) d. \\(120\\)\n\n\nQuestion-03\nWhat is the period of \\(\\sin^22(2\\theta+3)\\)?\na. \\(\\frac{\\pi}{2}\\) b. \\(\\frac{\\pi}{3}\\) c. \\(\\frac{\\pi}{4}\\) d. \\(\\frac{\\pi}{6}\\)\n\n\nQuestion-04\nAt 8:15 PM, what is the measure of the smaller angle between the hour hand and the minute hand of a clock?\na. \\(127.5^\\circ\\) b. \\(150^\\circ\\) c. \\(157.5^\\circ\\) d. \\(165^\\circ\\)\n\n\nQuestion-05\nIf \\(\\tan\\theta = \\frac{5}{12},\\ cos\\theta\\) is negative then what is the value of \\(\\sin\\theta\\)?\na. \\(-\\frac{5}{13}\\) b. \\(\\frac{5}{13}\\) c. \\(-\\frac{12}{13}\\) d. \\(\\frac{12}{13}\\)\n\n\nQuestion-06\nWhat is the value of 1 radian?\na. \\(2\\pi\\) right angle b. \\(\\frac{2}{\\pi}\\) right angle c. \\(2\\) right angle d. \\(\\pi\\) right angle\n\n\nQuestion-07\nWhat is the range of \\(f(x) = \\sqrt{1-\\sin^2\\theta}\\)?\na. \\(\\{-1,1\\}\\) b. \\([-1,1]\\) c. \\((-1,1)\\) d. \\((-\\infty, \\infty)\\)\n\n\nQuestion-08\nA car wheel rotates 90 times per second. Through how many degrees does the wheel rotate in 1 second?\na. \\(180^\\circ\\) b. \\(270^\\circ\\) c. \\(360^\\circ\\) d. \\(540^\\circ\\)\n\n\nQuestion-09\nWhat is the ratio of the circumference of a circle to its diameter?\na. \\(\\frac{\\pi r}{2}\\) b. \\(2\\pi\\) c. \\(\\pi\\) d. \\(2\\)\n\n\nQuestion-10\nWhat is the domain of function \\(\\cot\\theta\\)?\na. \\(\\mathbb{R}\\) b. \\(\\mathbb{R} - \\{(2n+1)\\frac{\\pi}{2}:n\\in\\mathbb{Z}\\}\\) c. \\(\\mathbb{R} - \\{n\\pi:n \\in\\mathbb{N}\\}\\) d. None",
+    "crumbs": [
+      "Home",
+      "Lectures",
+      "Weekly 01"
+    ]
+  },
+  {
+    "objectID": "Tuition/HSC/Mathematics/lecture-04.html#cq-part-20-marks",
+    "href": "Tuition/HSC/Mathematics/lecture-04.html#cq-part-20-marks",
+    "title": "Lecture 04",
+    "section": "CQ Part (20 Marks)",
+    "text": "CQ Part (20 Marks)\n\nQuestion-01\nRead the following statement: \\[\nf(\\theta) = \\frac{1+\\cos^2\\theta}{\\cos\\theta}\n\\] \\[\ng(x) = \\cos x\n\\]\n\n(2 marks) If \\(\\sin^2\\alpha - \\cos\\alpha = 0\\), then prove that, \\(\\tan^4\\alpha - \\sec^2\\alpha = 0\\).\n(4 marks) If \\(f(\\theta) = \\frac{5}{2}\\), then prove that, \\(\\cos^n\\theta + \\sec^n\\theta = 2^n + 2^{-n}\\).\n(4 marks) Sketch the graph of \\(g(x)\\) over the interval \\(-\\frac{\\pi}{2} \\le x \\le \\frac{\\pi}{2}\\).\n\n\n\nQuestion-02\nRead the following statement: \\[\nf(\\theta) = \\theta + \\tan\\alpha\n\\] \\[\ng(z) = \\sqrt{(1-\\cos z)(1+\\cos z)}\n\\]\n\n(2 marks) If \\(\\sin A = 0.8\\), then find the value of \\(\\tan A\\) over the interval \\([\\frac{\\pi}{2}, \\pi]\\).\n(4 marks) If \\(f(\\sec\\alpha) = x\\), then prove that, \\(g(\\alpha) = \\frac{x^2-1}{x^2+1}\\).\n(4 marks) Show that, \\(\\{\\sum g(A)\\}^2 = \\sum\\{g(A)\\}^2\\) when, \\(\\frac{1}{g(A)} + \\frac{1}{g(B)} + \\frac{1}{g(C)} = 0\\).\n\n\n\n\n← Previous Lecture\nNext Lecture →",
+    "crumbs": [
+      "Home",
+      "Lectures",
+      "Weekly 01"
+    ]
+  },
+  {
+    "objectID": "Projects/index.html",
+    "href": "Projects/index.html",
+    "title": "Things I’ve Built",
+    "section": "",
+    "text": "PROJECTS\n\n\nA collection of projects I’ve worked on while learning and exploring programming, data science, statistical computing, databases, and software development.\nI enjoy learning by building practical applications and experimenting with different technologies."
+  },
+  {
+    "objectID": "Projects/index.html#working-projects",
+    "href": "Projects/index.html#working-projects",
+    "title": "Things I’ve Built",
+    "section": "Working Projects",
+    "text": "Working Projects\n\n\n\n\n\n\nShop Management System\n\n\nA desktop-based billing and management system designed for shops, with a focus on inventory, billing, customer management, and database integration.\n\n\nPython Tkinter MySQL\n\n View Project \n\n\n\n\n\n\nEmail Sending Application\n\n\nA Python-based desktop application for sending emails through Gmail SMTP, with a simple interface for managing sender credentials and email messages.\n\n\nPython Tkinter SMTP\n\n View Project \n\n\n\n\n\n\nData Analysis Projects\n\n\nA collection of projects focused on exploring datasets, performing statistical analysis, creating visualizations, and extracting meaningful insights from data.\n\n\nR Python Statistics\n\n View Project \n\n\n\n\n\n\nDatabase Projects\n\n\nProjects involving relational database design, SQL queries, data management, joins, relationships, and practical database-driven applications.\n\n\nSQL MySQL Database\n\n View Project"
+  },
+  {
+    "objectID": "Projects/index.html#technologies",
+    "href": "Projects/index.html#technologies",
+    "title": "Things I’ve Built",
+    "section": "Technologies",
+    "text": "Technologies\n\n\n Python\n\n\n R\n\n\n SQL\n\n\n Data Science\n\n\n Programming\n\n\n Backend\n\n\n\n\n\nMore Projects Coming\n\n\nI am continuously building new projects as I learn. This section will grow as I turn new ideas and concepts into practical applications."
+  }
+]
