@@ -218,7 +218,7 @@ if (is_weekly_exam) {
 :::::
 
 ::: lecture-header-date
-`r lecture_date`
+<span>`r lecture_date`</span>
 :::
 
 `r weekly_badge`
