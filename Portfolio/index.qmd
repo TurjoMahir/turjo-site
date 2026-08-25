@@ -174,11 +174,11 @@ My current focus is on developing stronger skills in **R and data science**, whi
 
 [Secondary Education]{.education-level}
 
-<h3>Dakhil (2021)</h3>
+<h3>Dakhil</h3>
 
 </div>
 
-[GPA 5.00]{.education-result}
+[2021]{.education-result}
 ::::
 
 <p class="education-institution">
@@ -196,11 +196,11 @@ Tamirul Millat Kamil Madrasah, Tongi, Gazipur
 
 [Higher Secondary Education]{.education-level}
 
-<h3>HSC (2023)</h3>
+<h3>HSC</h3>
 
 </div>
 
-[GPA 5.00]{.education-result}
+[2023]{.education-result}
 ::::
 
 <p class="education-institution">

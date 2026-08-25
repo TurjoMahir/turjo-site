@@ -308,7 +308,7 @@ What is the range of $f(x) = \sqrt{1-\sin^2\theta}$?
 ::: q-card
 [ Question-08 ]{.q-number}
 
-A car wheel rotates 90 times per second. Through how many degrees does the wheel rotate in 1 second?
+A car wheel rotates 90 times per minute. Through how many degrees does the wheel rotate in 1 second?
 
 [a. $180^\circ$]{.mcq-badge}
 [b. $270^\circ$]{.mcq-badge}

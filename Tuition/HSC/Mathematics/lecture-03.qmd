@@ -713,6 +713,28 @@ points(pts_deg, pts_y, col = "firebrick", pch = 19, cex = 0.9)
 -   **Range Gap:** Values never lie strictly between $-1$ and $1$.
 -   **Odd Function Symmetry:** $\csc(-x) = -\csc x$.
 
+------------------------------------------------------------------------
+
+# Shortcut Techniques
+
+------------------------------------------------------------------------
+
+::: q-card
+[**Technique 1**]{.q-number}
+
+Periods for **$\sin, \cos, \sec, \csc$** functions -
+
+1. **When power of function are even**, Period = $\frac{2\pi}{\lvert \text{coefficient of variable} \rvert}$
+2. **When power of function are odd**, Period = $\frac{\pi}{\lvert \text{coefficient of variable} \rvert}$
+
+Periods for **$\tan, \cot$** functions -
+
+**Both for even and odd power of function**, Period = $\frac{\pi}{\lvert \text{coefficient of variable} \rvert}$
+
+:::
+
+<br>
+
 ::: lecture-navigation
 [← Previous Lecture](lecture-02.qmd){.lecture-nav-btn}
 

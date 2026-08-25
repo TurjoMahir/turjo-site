@@ -7,10 +7,9 @@ toc: false
 :::::: home-hero
 :::: home-intro
 
-#
+<h3>Student • University of Dhaka</h3>
 # Md. Foysal Uddin
 
-<h3>Student • University of Dhaka</h3>
 [APPLIED STATISTICS & DATA SCIENCE]{.home-eyebrow}
 
 ---
