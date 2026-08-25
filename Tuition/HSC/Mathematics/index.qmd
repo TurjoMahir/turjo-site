@@ -209,28 +209,25 @@ for (i in seq_len(nrow(lectures))) {
   )
 
 
+  # ---------------------------------------------
+  # Header
+  # ---------------------------------------------
+  
   cat(
-    paste0(
-      '<span class="lecture-number">',
-      sprintf(
-        "LECTURE %02d",
-        lecture_number
-      ),
-      '</span>'
-    ),
+    '<div class="lecture-header">',
     "\n\n"
   )
-
-
+  
+  
   # ---------------------------------------------
-  # Weekly exam label
+  # Lecture / Weekly Exam number
   # ---------------------------------------------
-
+  
   if (is_weekly_exam) {
-
+  
     cat(
       paste0(
-        '<span class="weekly-exam-label">',
+        '<span class="lecture-number">',
         sprintf(
           "WEEKLY EXAM %02d",
           weekly_exam_no
@@ -239,8 +236,29 @@ for (i in seq_len(nrow(lectures))) {
       ),
       "\n\n"
     )
-
+  
+  } else {
+  
+    cat(
+      paste0(
+        '<span class="lecture-number">',
+        sprintf(
+          "LECTURE %02d",
+          lecture_number
+        ),
+        '</span>'
+      ),
+      "\n\n"
+    )
+  
   }
+  
+  
+  cat(
+    '</div>',
+    "\n\n"
+  )
+
 
 
   cat(
