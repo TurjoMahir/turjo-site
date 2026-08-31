@@ -193,8 +193,7 @@ if (is_weekly_exam) {
 
   weekly_badge <- paste0(
     '<span class="weekly-exam-corner-badge">',
-    'WEEKLY ',
-    weekly_exam_no,
+    'MARKS 30',
     '</span>'
   )
 
@@ -207,7 +206,7 @@ if (is_weekly_exam) {
 [HIGHER MATHEMATICS]{.lecture-subject}
 
 ::: lecture-title-row
-# Lecture `r sprintf("%02d", lecture_no)`
+# `r if (is_weekly_exam) "Weekly " else "Lecture "` `r sprintf("%02d", if (is_weekly_exam) as.integer(weekly_exam_no) else lecture_no)`
 :::
 
 ::: lecture-chapter
@@ -221,7 +220,7 @@ if (is_weekly_exam) {
 <span>`r lecture_date`</span>
 :::
 
-`r weekly_badge`
+<span>`r weekly_badge`</span>
 :::::::
 
 ------------------------------------------------------------------------

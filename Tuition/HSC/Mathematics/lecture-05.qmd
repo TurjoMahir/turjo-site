@@ -214,171 +214,97 @@ if (is_weekly_exam) {
 :::::
 
 ::: lecture-header-date
-<span>`r lecture_date`</span>
+`r lecture_date`
 :::
 
-<span>`r weekly_badge`</span>
+`r weekly_badge`
 :::::::
 
-# Weekly Exam 01
+# Introduction
+
+<p>Here we are discussing about trigonometric ratios with associated angles. For $\theta$, associated angles would be $-\theta, (90^\circ \pm \theta), (180^\circ \pm \theta), \ldots$ etc.</p>
+
+<br>
+
+# Trigonometric ratios for $-\theta$
+
+![](images/clipboard-3931604376.png){fig-align="center" width="350" height="358"}
+
+$$
+\begin{aligned}
+\sin(-\theta) &= -\sin\theta \\
+\cos(-\theta) &= \cos\theta \\
+\tan(-\theta) &= -\tan\theta \\
+\cot(-\theta) &= -\cot\theta \\
+\sec(-\theta) &= \sec\theta \\
+\csc(-\theta) &= -\csc\theta
+\end{aligned}
+$$
+
+# Trigonometric ratios for $90^\circ -\theta$
+
+![](images/clipboard-3627342229.png){fig-align="center" width="350"}
+
+$$
+\begin{aligned}
+\sin(90^\circ-\theta) &= \cos\theta \\
+\cos(90^\circ-\theta) &= \sin\theta \\
+\tan(90^\circ-\theta) &= \cot\theta \\
+\cot(90^\circ-\theta) &= \tan\theta \\
+\sec(90^\circ-\theta) &= \csc\theta \\
+\csc(90^\circ-\theta) &= \sec\theta
+\end{aligned}
+$$
+
+# Trigonometric ratios for $180^\circ -\theta$
+
+![](images/clipboard-2657384209.png){fig-align="center"}
+
+$$
+\begin{aligned}
+\sin(180^\circ-\theta) &= \sin\theta \\
+\cos(180^\circ-\theta) &= -\cos\theta \\
+\tan(180^\circ-\theta) &= -\tan\theta \\
+\cot(180^\circ-\theta) &= -\cot\theta \\
+\sec(180^\circ-\theta) &= -\sec\theta \\
+\csc(180^\circ-\theta) &= \csc\theta
+\end{aligned}
+$$
+
+# Quadrants
+
+::::: columns
+::: {.column width="40%"}
+![](images/clipboard-2592633566.png){fig-align="center" width="350"}
+:::
+
+::: {.column width="60%"}
+![](images/clipboard-2210433449.png){fig-align="center" width="400" height="280"}
+:::
+:::::
 
 ------------------------------------------------------------------------
 
-## MCQ Part (10 Marks)
-
-::: q-card
-[Question-01]{.q-number}
-
-If $f(x)=x^2+2x+1$, then find $f(2)$.
-
-[a. $5$]{.mcq-badge}
-[b. $7$]{.mcq-badge}
-[c. $9$]{.mcq-badge}
-[d. $11$]{.mcq-badge}
-
-:::
-
-::: q-card
-[ Question-02 ]{.q-number}
-
-What is the measure of each **interior angle** of a **regular nonagon**?
-
-[a. $40$]{.mcq-badge}
-[b. $140$]{.mcq-badge}
-[c. $60$]{.mcq-badge}
-[d. $120$]{.mcq-badge}
-:::
-
-::: q-card
-[ Question-03 ]{.q-number}
-
-What is the period of $\sin^22(2\theta+3)$?
-
-[a. $\frac{\pi}{2}$]{.mcq-badge} 
-[b. $\frac{\pi}{3}$]{.mcq-badge} 
-[c. $\frac{\pi}{4}$]{.mcq-badge} 
-[d. $\frac{\pi}{6}$]{.mcq-badge}
-:::
-
-::: q-card
-[ Question-04 ]{.q-number}
-
-At 8:15 PM, what is the measure of the smaller angle between the hour hand and the minute hand of a clock?
-
-[a. $127.5^\circ$]{.mcq-badge} 
-[b. $150^\circ$]{.mcq-badge} 
-[c. $157.5^\circ$]{.mcq-badge} 
-[d. $165^\circ$]{.mcq-badge}
-:::
-
-::: q-card
-[ Question-05 ]{.q-number}
-
-If $\tan\theta = \frac{5}{12},\ cos\theta$ is negative then what is the value of $\sin\theta$?
-
-[a. $-\frac{5}{13}$]{.mcq-badge} 
-[b. $\frac{5}{13}$]{.mcq-badge} 
-[c. $-\frac{12}{13}$]{.mcq-badge} 
-[d. $\frac{12}{13}$]{.mcq-badge}
-:::
-
-::: q-card
-[ Question-06 ]{.q-number}
-
-What is the value of 1 radian?
-
-[a. $2\pi$ right angle]{.mcq-badge} 
-[b. $\frac{2}{\pi}$ right angle]{.mcq-badge} 
-[c. $2$ right angle]{.mcq-badge} 
-[d. $\pi$ right angle]{.mcq-badge}
-:::
-
-::: q-card
-[ Question-07 ]{.q-number}
-
-What is the range of $f(x) = \sqrt{1-\sin^2\theta}$?
-
-[a. $\{-1,1\}$]{.mcq-badge} 
-[b. $[-1,1]$]{.mcq-badge} 
-[c. $(-1,1)$]{.mcq-badge} 
-[d. $(-\infty, \infty)$]{.mcq-badge}
-:::
-
-::: q-card
-[ Question-08 ]{.q-number}
-
-A car wheel rotates 90 times per minute. Through how many degrees does the wheel rotate in 1 second?
-
-[a. $180^\circ$]{.mcq-badge}
-[b. $270^\circ$]{.mcq-badge}
-[c. $360^\circ$]{.mcq-badge}
-[d. $540^\circ$]{.mcq-badge}
-:::
-
-::: q-card
-[ Question-09 ]{.q-number}
-
-What is the ratio of the circumference of a circle to its diameter?
-
-[a. $\frac{\pi r}{2}$]{.mcq-badge}
-[b. $2\pi$]{.mcq-badge}
-[c. $\pi$]{.mcq-badge}
-[d. $2$]{.mcq-badge}
-:::
-
-::: q-card
-[ Question-10 ]{.q-number}
-
-What is the domain of function $\cot\theta$?
-
-[a. $\mathbb{R}$]{.mcq-badge}
-[b. $\mathbb{R} - \{(2n+1)\frac{\pi}{2}:n\in\mathbb{Z}\}$]{.mcq-badge}
-[c. $\mathbb{R} - \{n\pi:n \in\mathbb{N}\}$]{.mcq-badge}
-[d. None]{.mcq-badge}
-:::
+# Practice test
 
 ------------------------------------------------------------------------
 
-## CQ Part (20 Marks)
-
 ::: q-card
-[ Question-01 ]{.q-number}
 
-**Read the following statement:**
-$$
-f(\theta) = \frac{1+\cos^2\theta}{\cos\theta}
-$$
-$$
-g(x) = \cos x
-$$
+[ Question 1 ]{.q-number}
 
-(a) ***(2 marks)*** If $\sin^2\alpha - \cos\alpha = 0$, then prove that, $\tan^4\alpha - \sec^2\alpha = 0$.
-(b) ***(4 marks)*** If $f(\theta) = \frac{5}{2}$, then prove that, $\cos^n\theta + \sec^n\theta = 2^n + 2^{-n}$.
-(c) ***(4 marks)*** Sketch the graph of $g(x)$ over the interval $-\frac{\pi}{2} \le x \le \frac{\pi}{2}$.
+a. **(Marks 5)** If $n \in \mathbb{Z}$ then find the value of,  $\cos\left \{(2n+1)\pi + \frac{\pi}{3} \right \}$
+
+b. **(Marks 5)** If $\sec\theta = \frac{13}{12}$ and $270^\circ < \theta < 360^\circ$ then find the value of,  $\tan\theta - \csc\theta$
+
+c. **(Marks 5)** If $\theta = \frac{\pi}{28}$ then find the value of,  $\tan\theta \tan3\theta \tan5\theta \ldots \ldots \tan13\theta$
+
 :::
-
-::: q-card
-[ Question-02 ]{.q-number}
-
-**Read the following statement:**
-$$
-f(\theta) = \theta + \tan\alpha
-$$
-$$
-g(z) = \sqrt{(1-\cos z)(1+\cos z)}
-$$
-
-(a) ***(2 marks)*** If $\sin A = 0.8$, then find the value of $\tan A$ over the interval $[\frac{\pi}{2}, \pi]$.
-(b) ***(4 marks)*** If $f(\sec\alpha) = x$, then prove that, $g(\alpha) = \frac{x^2-1}{x^2+1}$.
-(c) ***(4 marks)*** Show that, $\{\sum g(A)\}^2 = \sum\{g(A)\}^2$ when,  $\frac{1}{g(A)} + \frac{1}{g(B)} + \frac{1}{g(C)} = 0$.
-:::
-
 
 ------------------------------------------------------------------------
-
 
 ::: lecture-navigation
-[← Previous Lecture](lecture-03.qmd){.lecture-nav-btn}
+[← Previous Lecture](lecture-04.qmd){.lecture-nav-btn}
 
 [Next Lecture →](lecture-05.qmd){.lecture-nav-btn}
 :::
