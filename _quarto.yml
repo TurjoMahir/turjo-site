@@ -60,6 +60,9 @@ website:
               
             - href: Tuition/HSC/Mathematics/lecture-04.qmd
               text: Weekly 01
+              
+            - href: Tuition/HSC/Mathematics/lecture-05.qmd
+              text: Lecture 05
 
     - id: ICT
       title: "HSC ICT"
